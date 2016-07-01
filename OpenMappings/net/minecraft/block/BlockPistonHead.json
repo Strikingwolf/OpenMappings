@@ -1,6 +1,6 @@
 {
-  "obf": "anu",
-  "name": "net/minecraft/block/BlockLog",
+  "obf": "ark",
+  "name": "net/minecraft/block/BlockPistonHead",
   "field": [],
   "constructors": [],
   "method": [],

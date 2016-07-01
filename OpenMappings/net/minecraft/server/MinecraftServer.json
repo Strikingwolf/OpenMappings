@@ -1,5 +1,4 @@
 {
-  "obf": "MinecraftServer",
   "name": "net/minecraft/server/MinecraftServer",
   "field": [
     {

@@ -1,6 +1,6 @@
 {
-  "obf": "anu",
-  "name": "net/minecraft/block/BlockLog",
+  "obf": "apx",
+  "name": "net/minecraft/block/BlockTripwireHook",
   "field": [],
   "constructors": [],
   "method": [],

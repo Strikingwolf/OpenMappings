@@ -1,6 +1,6 @@
 {
-  "obf": "anu",
-  "name": "net/minecraft/block/BlockLog",
+  "obf": "apt",
+  "name": "net/minecraft/block/BlockTNT",
   "field": [],
   "constructors": [],
   "method": [],

@@ -33,6 +33,21 @@
       "type": "Lnone/cr;"
     },
     {
+      "obf": "o",
+      "name": "lightLevel",
+      "type": "I"
+    },
+    {
+      "obf": "q",
+      "name": "hardness",
+      "type": "F"
+    },
+    {
+      "obf": "r",
+      "name": "resistance",
+      "type": "F"
+    },
+    {
       "obf": "x",
       "name": "material",
       "type": "Lnone/axx;"
@@ -41,6 +56,11 @@
       "obf": "y",
       "name": "color",
       "type": "Lnone/axy;"
+    },
+    {
+      "obf": "z",
+      "name": "slipperiness",
+      "type": "F"
     }
   ],
   "constructors": [],
@@ -50,6 +70,17 @@
       "name": "getUnlocalizedName",
       "signature": "()Ljava/lang/String;",
       "args": []
+    },
+    {
+      "obf": "a",
+      "name": "setLightLevel",
+      "signature": "(F)Lnone/akf;",
+      "args": [
+        {
+          "index": 0,
+          "name": "lightLevel"
+        }
+      ]
     },
     {
       "obf": "a",
@@ -325,6 +356,17 @@
     },
     {
       "obf": "b",
+      "name": "setResistance",
+      "signature": "(F)Lnone/akf;",
+      "args": [
+        {
+          "index": 0,
+          "name": "resistance"
+        }
+      ]
+    },
+    {
+      "obf": "b",
       "name": "getBlock",
       "signature": "(I)Lnone/akf;",
       "args": []
@@ -342,6 +384,17 @@
         {
           "index": 0,
           "name": "block"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "name": "setHardness",
+      "signature": "(F)Lnone/akf;",
+      "args": [
+        {
+          "index": 0,
+          "name": "hardness"
         }
       ]
     },
@@ -418,6 +471,12 @@
           "name": "state"
         }
       ]
+    },
+    {
+      "obf": "k",
+      "name": "setUnbreakable",
+      "signature": "()Lnone/akf;",
+      "args": []
     },
     {
       "obf": "q",

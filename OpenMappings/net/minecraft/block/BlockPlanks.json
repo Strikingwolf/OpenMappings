@@ -1,0 +1,146 @@
+{
+  "obf": "anx",
+  "name": "net/minecraft/block/BlockPlanks",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getState",
+      "signature": "(I)Lnone/ars;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "addSubItems",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "createStateContainer",
+      "signature": "()Lnone/art;",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "getMeta",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    },
+    {
+      "obf": "r",
+      "name": "getColor",
+      "signature": "(Lnone/ars;)Lnone/axy;",
+      "args": []
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "anx$a",
+      "name": "LogType",
+      "field": [
+        {
+          "obf": "a",
+          "name": "OAK",
+          "type": "Lnone/anx$a;"
+        },
+        {
+          "obf": "b",
+          "name": "SPRUCE",
+          "type": "Lnone/anx$a;"
+        },
+        {
+          "obf": "c",
+          "name": "BIRCH",
+          "type": "Lnone/anx$a;"
+        },
+        {
+          "obf": "d",
+          "name": "JUNGLE",
+          "type": "Lnone/anx$a;"
+        },
+        {
+          "obf": "e",
+          "name": "ACACIA",
+          "type": "Lnone/anx$a;"
+        },
+        {
+          "obf": "f",
+          "name": "DARK_OAK",
+          "type": "Lnone/anx$a;"
+        },
+        {
+          "obf": "g",
+          "name": "VALUES",
+          "type": "[Lnone/anx$a;"
+        },
+        {
+          "obf": "h",
+          "name": "meta",
+          "type": "I"
+        },
+        {
+          "obf": "i",
+          "name": "name",
+          "type": "Ljava/lang/String;"
+        },
+        {
+          "obf": "j",
+          "name": "secondaryName",
+          "type": "Ljava/lang/String;"
+        },
+        {
+          "obf": "k",
+          "name": "color",
+          "type": "Lnone/axy;"
+        }
+      ],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "a",
+          "name": "getMeta",
+          "signature": "()I",
+          "args": []
+        },
+        {
+          "obf": "a",
+          "name": "getType",
+          "signature": "(I)Lnone/anx$a;",
+          "args": [
+            {
+              "index": 0,
+              "name": "meta"
+            }
+          ]
+        },
+        {
+          "obf": "c",
+          "name": "getColor",
+          "signature": "()Lnone/axy;",
+          "args": []
+        },
+        {
+          "obf": "d",
+          "name": "getSecondaryName",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        },
+        {
+          "obf": "m",
+          "name": "asString",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        },
+        {
+          "obf": "values",
+          "name": "values",
+          "signature": "()[Lnone/anx$a;",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}
