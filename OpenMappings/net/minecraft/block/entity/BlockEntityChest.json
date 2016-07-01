@@ -5,6 +5,12 @@
   "constructors": [],
   "method": [
     {
+      "obf": "A",
+      "name": "resetCache",
+      "signature": "()V",
+      "args": []
+    },
+    {
       "obf": "E_",
       "name": "tick",
       "signature": "()V",
@@ -32,6 +38,12 @@
       "obf": "b",
       "name": "writeToNBT",
       "signature": "(Lnone/dr;)Lnone/dr;",
+      "args": []
+    },
+    {
+      "obf": "y",
+      "name": "disable",
+      "signature": "()V",
       "args": []
     }
   ],

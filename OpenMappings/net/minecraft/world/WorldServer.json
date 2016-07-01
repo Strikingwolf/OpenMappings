@@ -3,6 +3,13 @@
   "name": "net/minecraft/world/WorldServer",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "aE",
+      "name": "isGameThread",
+      "signature": "()Z",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

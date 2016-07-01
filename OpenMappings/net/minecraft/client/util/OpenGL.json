@@ -1,13 +1,597 @@
 {
   "obf": "bob",
   "name": "net/minecraft/client/util/OpenGL",
-  "field": [],
+  "field": [
+    {
+      "obf": "a",
+      "name": "matrix",
+      "type": "Ljava/nio/FloatBuffer;"
+    }
+  ],
   "constructors": [],
   "method": [
+    {
+      "obf": "A",
+      "name": "createTextureId",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "F",
+      "name": "loadIdentity",
+      "signature": "()V",
+      "args": []
+    },
+    {
+      "obf": "G",
+      "name": "pushMatrix",
+      "signature": "()V",
+      "args": []
+    },
+    {
+      "obf": "H",
+      "name": "popMatrix",
+      "signature": "()V",
+      "args": []
+    },
+    {
+      "obf": "J",
+      "name": "end",
+      "signature": "()V",
+      "args": []
+    },
+    {
+      "obf": "K",
+      "name": "endList",
+      "signature": "()V",
+      "args": []
+    },
+    {
+      "obf": "L",
+      "name": "getError",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "pushAttrib",
+      "signature": "()V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "clearDepth",
+      "signature": "(D)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "scaled",
+      "signature": "(DDD)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "ortho",
+      "signature": "(DDDDDD)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "signature": "(F)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "normal3f",
+      "signature": "(FFF)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "x"
+        },
+        {
+          "index": 1,
+          "name": "y"
+        },
+        {
+          "index": 2,
+          "name": "z"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "clearColor",
+      "signature": "(FFFF)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "texEnvf",
+      "signature": "(IIF)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "texEnvi",
+      "signature": "(III)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "copyTexSubImage2D",
+      "signature": "(IIIIIIII)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "texImage2D",
+      "signature": "(IIIIIIIILjava/nio/IntBuffer;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "readPixels",
+      "signature": "(IIIIIILjava/nio/IntBuffer;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getTexImage",
+      "signature": "(IIIILjava/nio/IntBuffer;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "setTexCoodPointer",
+      "signature": "(IIILjava/nio/ByteBuffer;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "setNormalPointer",
+      "signature": "(IILjava/nio/ByteBuffer;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "setLightParam",
+      "signature": "(IILjava/nio/FloatBuffer;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "lightId"
+        },
+        {
+          "index": 1,
+          "name": "paramId"
+        },
+        {
+          "index": 2,
+          "name": "paramValue"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "setLightParam",
+      "signature": "(ILjava/nio/FloatBuffer;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "paramId"
+        },
+        {
+          "index": 1,
+          "name": "paramValue"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getInteger",
+      "signature": "(ILjava/nio/IntBuffer;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "param"
+        },
+        {
+          "index": 1,
+          "name": "buffer"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "mulMatrix",
+      "signature": "(Ljava/nio/FloatBuffer;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "matrix"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "rotateMatrix",
+      "signature": "(Ljava/nio/FloatBuffer;Lorg/lwjgl/util/vector/Quaternion;)Ljava/nio/FloatBuffer;",
+      "args": [
+        {
+          "index": 0,
+          "name": "matrix"
+        },
+        {
+          "index": 1,
+          "name": "rotation"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "texGen",
+      "signature": "(Lnone/bob$u;ILjava/nio/FloatBuffer;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "mulMatrix",
+      "signature": "(Lorg/lwjgl/util/vector/Quaternion;)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "translated",
+      "signature": "(DDD)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "texCood2f",
+      "signature": "(FF)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "scalef",
+      "signature": "(FFF)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "rotatef",
+      "signature": "(FFFF)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "texParameterf",
+      "signature": "(IIF)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "texParameteri",
+      "signature": "(III)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "viewport",
+      "signature": "(IIII)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "left"
+        },
+        {
+          "index": 1,
+          "name": "right"
+        },
+        {
+          "index": 2,
+          "name": "bottom"
+        },
+        {
+          "index": 3,
+          "name": "top"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "texSubImage2D",
+      "signature": "(IIIIIIIILjava/nio/IntBuffer;)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "setVertexPointer",
+      "signature": "(IIILjava/nio/ByteBuffer;)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "texEnv",
+      "signature": "(IILjava/nio/FloatBuffer;)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "fog",
+      "signature": "(ILjava/nio/FloatBuffer;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "param"
+        },
+        {
+          "index": 1,
+          "name": "buffer"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "name": "popAttrib",
+      "signature": "()V",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "translatef",
+      "signature": "(FFF)V",
+      "args": []
+    },
     {
       "obf": "c",
       "name": "setColor",
       "signature": "(FFFF)V",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "fogi",
+      "signature": "(II)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "param"
+        },
+        {
+          "index": 1,
+          "name": "value"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "name": "getTexLevelParameteri",
+      "signature": "(III)I",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "setTexCoordPointer",
+      "signature": "(IIII)V",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "setcolorPointer",
+      "signature": "(IIILjava/nio/ByteBuffer;)V",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getFloat",
+      "signature": "(ILjava/nio/FloatBuffer;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "id"
+        },
+        {
+          "index": 1,
+          "name": "buffer"
+        }
+      ]
+    },
+    {
+      "obf": "d",
+      "name": "setLineWidth",
+      "signature": "(F)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "width"
+        }
+      ]
+    },
+    {
+      "obf": "d",
+      "name": "setColor",
+      "signature": "(FFF)V",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "polyMode",
+      "signature": "(II)V",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "setVertexPointer",
+      "signature": "(IIII)V",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "vertex3f",
+      "signature": "(FFF)V",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "deleteLists",
+      "signature": "(II)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "list"
+        },
+        {
+          "index": 1,
+          "name": "amount"
+        }
+      ]
+    },
+    {
+      "obf": "e",
+      "name": "setColorPointer",
+      "signature": "(IIII)V",
+      "args": []
+    },
+    {
+      "obf": "f",
+      "name": "newList",
+      "signature": "(II)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "list"
+        },
+        {
+          "index": 1,
+          "name": "compileMode"
+        }
+      ]
+    },
+    {
+      "obf": "f",
+      "name": "drawArrays",
+      "signature": "(III)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "mode"
+        },
+        {
+          "index": 1,
+          "name": "start"
+        },
+        {
+          "index": 2,
+          "name": "size"
+        }
+      ]
+    },
+    {
+      "obf": "g",
+      "name": "pixelStorei",
+      "signature": "(II)V",
+      "args": []
+    },
+    {
+      "obf": "m",
+      "name": "clear",
+      "signature": "(I)V",
+      "args": []
+    },
+    {
+      "obf": "n",
+      "name": "matrixMode",
+      "signature": "(I)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "mode"
+        }
+      ]
+    },
+    {
+      "obf": "p",
+      "name": "disableClientState",
+      "signature": "(I)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "obf": "q",
+      "name": "enableClientState",
+      "signature": "(I)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "obf": "r",
+      "name": "begin",
+      "signature": "(I)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "mode"
+        }
+      ]
+    },
+    {
+      "obf": "s",
+      "name": "callList",
+      "signature": "(I)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "list"
+        }
+      ]
+    },
+    {
+      "obf": "t",
+      "name": "genLists",
+      "signature": "(I)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "amount"
+        }
+      ]
+    },
+    {
+      "obf": "u",
+      "name": "getString",
+      "signature": "(I)Ljava/lang/String;",
+      "args": [
+        {
+          "index": 0,
+          "name": "param"
+        }
+      ]
+    },
+    {
+      "obf": "v",
+      "name": "getInteger",
+      "signature": "(I)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "param"
+        }
+      ]
+    },
+    {
+      "obf": "w",
+      "signature": "(I)V",
       "args": []
     }
   ],

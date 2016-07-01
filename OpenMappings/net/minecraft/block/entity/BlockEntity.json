@@ -18,6 +18,11 @@
       "type": "Lnone/cm;"
     },
     {
+      "obf": "d",
+      "name": "invalid",
+      "type": "Z"
+    },
+    {
       "obf": "e",
       "name": "block",
       "type": "Lnone/akf;"
@@ -31,15 +36,45 @@
       "obf": "g",
       "name": "CLASS_NAME_MAP",
       "type": "Ljava/util/Map;"
+    },
+    {
+      "obf": "h",
+      "name": "metadata",
+      "type": "I"
     }
   ],
   "constructors": [],
   "method": [
     {
+      "obf": "A",
+      "name": "resetCache",
+      "signature": "()V",
+      "args": []
+    },
+    {
       "obf": "D",
       "name": "getWorld",
       "signature": "()Lnone/aid;",
       "args": []
+    },
+    {
+      "obf": "a",
+      "name": "distanceTo",
+      "signature": "(DDD)D",
+      "args": [
+        {
+          "index": 0,
+          "name": "x"
+        },
+        {
+          "index": 1,
+          "name": "y"
+        },
+        {
+          "index": 2,
+          "name": "z"
+        }
+      ]
     },
     {
       "obf": "a",
@@ -84,6 +119,7 @@
     },
     {
       "obf": "a",
+      "name": "throwCrashReport",
       "signature": "(Lnone/c;)V",
       "args": [
         {
@@ -116,6 +152,7 @@
     },
     {
       "obf": "b",
+      "name": "joinWorld",
       "signature": "(Lnone/aid;)V",
       "args": [
         {
@@ -159,9 +196,51 @@
       "args": []
     },
     {
+      "obf": "s",
+      "name": "getRenderDistance",
+      "signature": "()D",
+      "args": []
+    },
+    {
       "obf": "t",
       "name": "hasWorld",
       "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "u",
+      "name": "getMetadata",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "v",
+      "name": "getPos",
+      "signature": "()Lnone/cm;",
+      "args": []
+    },
+    {
+      "obf": "w",
+      "name": "getBlock",
+      "signature": "()Lnone/akf;",
+      "args": []
+    },
+    {
+      "obf": "x",
+      "name": "isInvalid",
+      "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "y",
+      "name": "disable",
+      "signature": "()V",
+      "args": []
+    },
+    {
+      "obf": "z",
+      "name": "enable",
+      "signature": "()V",
       "args": []
     }
   ],

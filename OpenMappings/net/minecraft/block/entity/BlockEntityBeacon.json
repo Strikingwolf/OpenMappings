@@ -33,6 +33,12 @@
       "name": "save",
       "signature": "()Lnone/dr;",
       "args": []
+    },
+    {
+      "obf": "s",
+      "name": "getRenderDistance",
+      "signature": "()D",
+      "args": []
     }
   ],
   "innerClass": []

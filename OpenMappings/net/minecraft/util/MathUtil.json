@@ -9,6 +9,18 @@
       "name": "sqrt",
       "signature": "(D)F",
       "args": []
+    },
+    {
+      "obf": "a",
+      "name": "cos",
+      "signature": "(F)F",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "sin",
+      "signature": "(F)F",
+      "args": []
     }
   ],
   "innerClass": []

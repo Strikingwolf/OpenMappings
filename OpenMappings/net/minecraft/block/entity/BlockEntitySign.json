@@ -12,6 +12,12 @@
     },
     {
       "obf": "b",
+      "name": "joinWorld",
+      "signature": "(Lnone/aid;)V",
+      "args": []
+    },
+    {
+      "obf": "b",
       "name": "writeToNBT",
       "signature": "(Lnone/dr;)Lnone/dr;",
       "args": []

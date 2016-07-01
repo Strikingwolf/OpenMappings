@@ -15,6 +15,12 @@
       "name": "writeToNBT",
       "signature": "(Lnone/dr;)Lnone/dr;",
       "args": []
+    },
+    {
+      "obf": "z",
+      "name": "enable",
+      "signature": "()V",
+      "args": []
     }
   ],
   "innerClass": [

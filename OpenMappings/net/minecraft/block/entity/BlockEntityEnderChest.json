@@ -9,6 +9,12 @@
       "name": "tick",
       "signature": "()V",
       "args": []
+    },
+    {
+      "obf": "y",
+      "name": "disable",
+      "signature": "()V",
+      "args": []
     }
   ],
   "innerClass": []

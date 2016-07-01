@@ -21,6 +21,12 @@
       "name": "writeToNBT",
       "signature": "(Lnone/dr;)Lnone/dr;",
       "args": []
+    },
+    {
+      "obf": "u",
+      "name": "getMetadata",
+      "signature": "()I",
+      "args": []
     }
   ],
   "innerClass": []

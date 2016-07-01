@@ -3,9 +3,19 @@
   "name": "net/minecraft/client/MinecraftClient",
   "field": [
     {
+      "obf": "A",
+      "name": "nanoTime",
+      "type": "J"
+    },
+    {
       "obf": "B",
       "name": "profiler",
       "type": "Lnone/oq;"
+    },
+    {
+      "obf": "C",
+      "name": "running",
+      "type": "Z"
     },
     {
       "obf": "J",
@@ -53,6 +63,11 @@
       "type": "Z"
     },
     {
+      "obf": "an",
+      "name": "proxy",
+      "type": "Ljava/net/Proxy;"
+    },
+    {
       "obf": "ao",
       "name": "saveFormat",
       "type": "Lnone/bad;"
@@ -71,6 +86,11 @@
       "obf": "m",
       "name": "currentGUI",
       "type": "Lnone/bft;"
+    },
+    {
+      "obf": "y",
+      "name": "time",
+      "type": "J"
     }
   ],
   "constructors": [],
@@ -82,15 +102,49 @@
       "args": []
     },
     {
+      "obf": "H",
+      "name": "getSnooper",
+      "signature": "()Lnone/rb;",
+      "args": []
+    },
+    {
       "obf": "I",
       "name": "getTime",
       "signature": "()J",
       "args": []
     },
     {
+      "obf": "M",
+      "name": "getProxy",
+      "signature": "()Ljava/net/Proxy;",
+      "args": []
+    },
+    {
+      "obf": "X",
+      "name": "getSesion",
+      "signature": "()Lcom/mojang/authlib/minecraft/MinecraftSessionService;",
+      "args": []
+    },
+    {
       "obf": "a",
       "name": "start",
       "signature": "()V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "printGlError",
+      "signature": "(Ljava/lang/String;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "errorName"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/adz;Lnone/aqk;)Lnone/adz;",
       "args": []
     },
     {
@@ -103,6 +157,77 @@
           "name": "gui"
         }
       ]
+    },
+    {
+      "obf": "a",
+      "name": "setWorld",
+      "signature": "(Lnone/bln;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "setWorld",
+      "signature": "(Lnone/bln;Ljava/lang/String;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "name"
+        }
+      ]
+    },
+    {
+      "obf": "aE",
+      "name": "isGameThread",
+      "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "ap",
+      "name": "createWindow",
+      "signature": "()V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "throwCrashReport",
+      "signature": "(Lnone/b;)Lnone/b;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "signature": "(Lnone/rb;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "snooper"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "name": "storeCrashReport",
+      "signature": "(Lnone/b;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "report"
+        }
+      ]
+    },
+    {
+      "obf": "h",
+      "name": "stop",
+      "signature": "()V",
+      "args": []
     }
   ],
   "innerClass": []
