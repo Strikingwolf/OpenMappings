@@ -1,6 +1,6 @@
 {
-  "obf": "rv",
-  "name": "net/minecraft/entity/Animal",
+  "obf": "wn",
+  "name": "net/minecraft/entity/animal/EntitySquid",
   "field": [],
   "constructors": [],
   "method": [],

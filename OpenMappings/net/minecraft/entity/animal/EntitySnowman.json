@@ -1,6 +1,6 @@
 {
-  "obf": "ala",
-  "name": "net/minecraft/block/BlockCrop",
+  "obf": "wm",
+  "name": "net/minecraft/entity/animal/EntitySnowman",
   "field": [],
   "constructors": [],
   "method": [],

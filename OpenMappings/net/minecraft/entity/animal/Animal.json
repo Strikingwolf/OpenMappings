@@ -1,6 +1,6 @@
 {
-  "obf": "ala",
-  "name": "net/minecraft/block/BlockCrop",
+  "obf": "rv",
+  "name": "net/minecraft/entity/animal/Animal",
   "field": [],
   "constructors": [],
   "method": [],

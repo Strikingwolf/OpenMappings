@@ -1,0 +1,21 @@
+{
+  "obf": "ry",
+  "name": "net/minecraft/entity/EntityList",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "registerEntity",
+      "signature": "(Ljava/lang/Class;Ljava/lang/String;I)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "registerEntity",
+      "signature": "(Ljava/lang/Class;Ljava/lang/String;III)V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}
