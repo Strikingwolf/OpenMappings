@@ -13,6 +13,11 @@
       "type": "Lnone/da;"
     },
     {
+      "obf": "j",
+      "name": "random",
+      "type": "Ljava/util/Random;"
+    },
+    {
       "obf": "k",
       "name": "maxStackSize",
       "type": "I"
