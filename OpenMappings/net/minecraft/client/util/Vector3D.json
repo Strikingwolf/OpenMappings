@@ -1,0 +1,24 @@
+{
+  "obf": "cac",
+  "name": "net/minecraft/client/util/Vector3D",
+  "field": [
+    {
+      "obf": "a",
+      "name": "posX",
+      "type": "D"
+    },
+    {
+      "obf": "b",
+      "name": "posY",
+      "type": "D"
+    },
+    {
+      "obf": "c",
+      "name": "posZ",
+      "type": "D"
+    }
+  ],
+  "constructors": [],
+  "method": [],
+  "innerClass": []
+}
