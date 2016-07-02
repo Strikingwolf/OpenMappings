@@ -1,6 +1,6 @@
 {
   "obf": "age",
-  "name": "net/minecraft/crafting/CraftingManager",
+  "name": "net/minecraft/crafting/CraftingRegistry",
   "field": [
     {
       "obf": "a",

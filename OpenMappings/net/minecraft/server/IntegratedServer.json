@@ -1,0 +1,70 @@
+{
+  "obf": "bzl",
+  "name": "net/minecraft/server/IntegratedServer",
+  "field": [
+    {
+      "obf": "k",
+      "name": "LOGGER",
+      "type": "Lorg/apache/logging/log4j/Logger;"
+    },
+    {
+      "obf": "l",
+      "name": "client",
+      "type": "Lnone/bcx;"
+    },
+    {
+      "obf": "n",
+      "name": "paused",
+      "type": "Z"
+    },
+    {
+      "obf": "o",
+      "name": "lan",
+      "type": "Z"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(Lnone/bcx;Ljava/lang/String;Ljava/lang/String;Lnone/aig;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lnone/ml;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "client"
+        },
+        {
+          "index": 4,
+          "name": "authService"
+        },
+        {
+          "index": 5,
+          "name": "sessionService"
+        },
+        {
+          "index": 6,
+          "name": "profileRepository"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [
+    {
+      "obf": "a",
+      "name": "startLANServer",
+      "signature": "(Lnone/aib;Z)Ljava/lang/String;",
+      "args": [
+        {
+          "index": 0,
+          "name": "gameMode"
+        }
+      ]
+    },
+    {
+      "obf": "i",
+      "name": "createCommandRegistry",
+      "signature": "()Lnone/bd;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

@@ -1,0 +1,19 @@
+{
+  "obf": "bzm",
+  "name": "net/minecraft/command/CommandRegistryInternalServer",
+  "field": [],
+  "constructors": [
+    {
+      "signature": "(Lnone/bzl;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "server"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [],
+  "innerClass": []
+}
