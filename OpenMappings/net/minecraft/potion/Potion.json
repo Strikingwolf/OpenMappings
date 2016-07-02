@@ -1,0 +1,31 @@
+{
+  "obf": "rp",
+  "name": "net/minecraft/potion/Potion",
+  "field": [
+    {
+      "obf": "b",
+      "name": "REGISTRY",
+      "type": "Lnone/da;"
+    },
+    {
+      "obf": "c",
+      "name": "negative",
+      "type": "Z"
+    },
+    {
+      "obf": "e",
+      "name": "name",
+      "type": "Ljava/lang/String;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "k",
+      "name": "registerPotions",
+      "signature": "()V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

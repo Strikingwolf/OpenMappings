@@ -23,13 +23,33 @@
       "type": "Lnone/axx;"
     },
     {
+      "obf": "d",
+      "name": "WOOD",
+      "type": "Lnone/axx;"
+    },
+    {
       "obf": "e",
       "name": "ROCK",
       "type": "Lnone/axx;"
     },
     {
+      "obf": "f",
+      "name": "IRON",
+      "type": "Lnone/axx;"
+    },
+    {
+      "obf": "h",
+      "name": "WATER",
+      "type": "Lnone/axx;"
+    },
+    {
+      "obf": "i",
+      "name": "LAVA",
+      "type": "Lnone/axx;"
+    },
+    {
       "obf": "j",
-      "name": "WOOL",
+      "name": "LEAF",
       "type": "Lnone/axx;"
     }
   ],
