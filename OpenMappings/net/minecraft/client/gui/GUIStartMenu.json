@@ -1,7 +1,18 @@
 {
   "obf": "bga",
   "name": "net/minecraft/client/gui/GUIStartMenu",
-  "field": [],
+  "field": [
+    {
+      "obf": "g",
+      "name": "LOGGER",
+      "type": "Lorg/apache/logging/log4j/Logger;"
+    },
+    {
+      "obf": "h",
+      "name": "RANDOM",
+      "type": "Ljava/util/Random;"
+    }
+  ],
   "constructors": [],
   "method": [
     {

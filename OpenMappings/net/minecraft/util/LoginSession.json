@@ -1,0 +1,129 @@
+{
+  "obf": "bde",
+  "name": "net/minecraft/util/LoginSession",
+  "field": [
+    {
+      "obf": "a",
+      "name": "name",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "b",
+      "name": "id",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "c",
+      "name": "token",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "d",
+      "name": "type",
+      "type": "Lnone/bde$a;"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "name"
+        },
+        {
+          "index": 1,
+          "name": "id"
+        },
+        {
+          "index": 2,
+          "name": "token"
+        },
+        {
+          "index": 3,
+          "name": "type"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [
+    {
+      "obf": "a",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getId",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "getToken",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "getProfile",
+      "signature": "()Lcom/mojang/authlib/GameProfile;",
+      "args": []
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "bde$a",
+      "name": "Type",
+      "field": [
+        {
+          "obf": "a",
+          "name": "LEGACY",
+          "type": "Lnone/bde$a;"
+        },
+        {
+          "obf": "b",
+          "name": "MOJANG",
+          "type": "Lnone/bde$a;"
+        },
+        {
+          "obf": "c",
+          "name": "TYPES",
+          "type": "Ljava/util/Map;"
+        },
+        {
+          "obf": "d",
+          "name": "name",
+          "type": "Ljava/lang/String;"
+        }
+      ],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "a",
+          "name": "getType",
+          "signature": "(Ljava/lang/String;)Lnone/bde$a;",
+          "args": [
+            {
+              "index": 0,
+              "name": "name"
+            }
+          ]
+        },
+        {
+          "obf": "values",
+          "signature": "()[Lnone/bde$a;",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}

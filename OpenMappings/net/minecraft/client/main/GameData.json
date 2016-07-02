@@ -1,0 +1,243 @@
+{
+  "obf": "bit",
+  "name": "net/minecraft/client/main/GameData",
+  "field": [
+    {
+      "obf": "a",
+      "name": "user",
+      "type": "Lnone/bit$e;"
+    },
+    {
+      "obf": "b",
+      "name": "screen",
+      "type": "Lnone/bit$a;"
+    },
+    {
+      "obf": "c",
+      "name": "directories",
+      "type": "Lnone/bit$b;"
+    },
+    {
+      "obf": "d",
+      "name": "game",
+      "type": "Lnone/bit$c;"
+    },
+    {
+      "obf": "e",
+      "name": "server",
+      "type": "Lnone/bit$d;"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(Lnone/bit$e;Lnone/bit$a;Lnone/bit$b;Lnone/bit$c;Lnone/bit$d;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "user"
+        },
+        {
+          "index": 1,
+          "name": "screen"
+        },
+        {
+          "index": 2,
+          "name": "directories"
+        },
+        {
+          "index": 3,
+          "name": "game"
+        },
+        {
+          "index": 4,
+          "name": "server"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [],
+  "innerClass": [
+    {
+      "obf": "bit$a",
+      "name": "Screen",
+      "field": [
+        {
+          "obf": "a",
+          "name": "width",
+          "type": "I"
+        },
+        {
+          "obf": "b",
+          "name": "height",
+          "type": "I"
+        },
+        {
+          "obf": "c",
+          "name": "fullscreen",
+          "type": "Z"
+        }
+      ],
+      "constructors": [
+        {
+          "signature": "(IIZZ)V",
+          "args": [
+            {
+              "index": 0,
+              "name": "width"
+            },
+            {
+              "index": 1,
+              "name": "height"
+            },
+            {
+              "index": 2,
+              "name": "fullscreen"
+            }
+          ],
+          "statics": false
+        }
+      ],
+      "method": [],
+      "innerClass": []
+    },
+    {
+      "obf": "bit$b",
+      "name": "Directories",
+      "field": [
+        {
+          "obf": "a",
+          "name": "gameDirectory",
+          "type": "Ljava/io/File;"
+        },
+        {
+          "obf": "b",
+          "name": "resourcePacksDirectory",
+          "type": "Ljava/io/File;"
+        },
+        {
+          "obf": "c",
+          "name": "assetsDirectory",
+          "type": "Ljava/io/File;"
+        }
+      ],
+      "constructors": [],
+      "method": [],
+      "innerClass": []
+    },
+    {
+      "obf": "bit$c",
+      "name": "Game",
+      "field": [
+        {
+          "obf": "a",
+          "name": "demo",
+          "type": "Z"
+        },
+        {
+          "obf": "b",
+          "name": "version",
+          "type": "Ljava/lang/String;"
+        },
+        {
+          "obf": "c",
+          "name": "releaseType",
+          "type": "Ljava/lang/String;"
+        }
+      ],
+      "constructors": [
+        {
+          "signature": "(ZLjava/lang/String;Ljava/lang/String;)V",
+          "args": [
+            {
+              "index": 0,
+              "name": "demo"
+            },
+            {
+              "index": 1,
+              "name": "version"
+            },
+            {
+              "index": 2,
+              "name": "releaseType"
+            }
+          ],
+          "statics": false
+        }
+      ],
+      "method": [],
+      "innerClass": []
+    },
+    {
+      "obf": "bit$d",
+      "name": "Server",
+      "field": [
+        {
+          "obf": "a",
+          "name": "name",
+          "type": "Ljava/lang/String;"
+        },
+        {
+          "obf": "b",
+          "name": "port",
+          "type": "I"
+        }
+      ],
+      "constructors": [],
+      "method": [],
+      "innerClass": []
+    },
+    {
+      "obf": "bit$e",
+      "name": "User",
+      "field": [
+        {
+          "obf": "a",
+          "name": "session",
+          "type": "Lnone/bde;"
+        },
+        {
+          "obf": "b",
+          "name": "userData",
+          "type": "Lcom/mojang/authlib/properties/PropertyMap;"
+        },
+        {
+          "obf": "c",
+          "name": "profileData",
+          "type": "Lcom/mojang/authlib/properties/PropertyMap;"
+        },
+        {
+          "obf": "d",
+          "name": "proxy",
+          "type": "Ljava/net/Proxy;"
+        }
+      ],
+      "constructors": [
+        {
+          "signature": "(Lnone/bde;Lcom/mojang/authlib/properties/PropertyMap;Lcom/mojang/authlib/properties/PropertyMap;Ljava/net/Proxy;)V",
+          "args": [
+            {
+              "index": 0,
+              "name": "session"
+            },
+            {
+              "index": 1,
+              "name": "userData"
+            },
+            {
+              "index": 2,
+              "name": "profileData"
+            },
+            {
+              "index": 3,
+              "name": "proxy"
+            }
+          ],
+          "statics": false
+        }
+      ],
+      "method": [],
+      "innerClass": []
+    }
+  ]
+}

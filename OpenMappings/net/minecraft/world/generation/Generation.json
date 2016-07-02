@@ -1,0 +1,15 @@
+{
+  "obf": "aua",
+  "name": "net/minecraft/world/generation/Generation",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "generateRecursively",
+      "signature": "(Lnone/aid;IIIILnone/atv;)V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

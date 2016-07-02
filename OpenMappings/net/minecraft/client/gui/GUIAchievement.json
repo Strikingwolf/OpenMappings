@@ -1,0 +1,19 @@
+{
+  "obf": "bgd",
+  "name": "net/minecraft/client/gui/GUIAchievement",
+  "field": [
+    {
+      "obf": "a",
+      "name": "BACKGROUND",
+      "type": "Lnone/kn;"
+    },
+    {
+      "obf": "f",
+      "name": "client",
+      "type": "Lnone/bcx;"
+    }
+  ],
+  "constructors": [],
+  "method": [],
+  "innerClass": []
+}

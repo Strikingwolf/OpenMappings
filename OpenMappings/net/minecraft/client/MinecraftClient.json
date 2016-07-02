@@ -29,8 +29,18 @@
     },
     {
       "obf": "M",
-      "name": "resourcePacksDir",
+      "name": "resourcePacksDirectory",
       "type": "Ljava/io/File;"
+    },
+    {
+      "obf": "N",
+      "name": "userData",
+      "type": "Lcom/mojang/authlib/properties/PropertyMap;"
+    },
+    {
+      "obf": "O",
+      "name": "profileData",
+      "type": "Lcom/mojang/authlib/properties/PropertyMap;"
     },
     {
       "obf": "R",
@@ -63,6 +73,31 @@
       "type": "Z"
     },
     {
+      "obf": "ae",
+      "name": "session",
+      "type": "Lnone/bde;"
+    },
+    {
+      "obf": "aj",
+      "name": "server",
+      "type": "Lnone/bzl;"
+    },
+    {
+      "obf": "ak",
+      "name": "assetsDirectory",
+      "type": "Ljava/io/File;"
+    },
+    {
+      "obf": "al",
+      "name": "version",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "am",
+      "name": "releaseType",
+      "type": "Ljava/lang/String;"
+    },
+    {
       "obf": "an",
       "name": "proxy",
       "type": "Ljava/net/Proxy;"
@@ -71,6 +106,11 @@
       "obf": "ao",
       "name": "saveFormat",
       "type": "Lnone/bad;"
+    },
+    {
+      "obf": "av",
+      "name": "demo",
+      "type": "Z"
     },
     {
       "obf": "f",
@@ -88,12 +128,33 @@
       "type": "Lnone/bft;"
     },
     {
+      "obf": "q",
+      "name": "achievementPopup",
+      "type": "Lnone/bgd;"
+    },
+    {
+      "obf": "w",
+      "name": "gameDirectory",
+      "type": "Ljava/io/File;"
+    },
+    {
       "obf": "y",
       "name": "time",
       "type": "J"
     }
   ],
-  "constructors": [],
+  "constructors": [
+    {
+      "signature": "(Lnone/bit;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "data"
+        }
+      ],
+      "statics": false
+    }
+  ],
   "method": [
     {
       "obf": "G",

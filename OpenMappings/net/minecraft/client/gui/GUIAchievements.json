@@ -1,0 +1,30 @@
+{
+  "obf": "bge",
+  "name": "net/minecraft/client/gui/GUIAchievements",
+  "field": [
+    {
+      "obf": "C",
+      "name": "BACKGROUND",
+      "type": "Lnone/kn;"
+    },
+    {
+      "obf": "a",
+      "name": "parent",
+      "type": "Lnone/bft;"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(Lnone/bft;Lnone/nx;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "parent"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [],
+  "innerClass": []
+}

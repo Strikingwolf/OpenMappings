@@ -1,0 +1,68 @@
+{
+  "obf": "awu",
+  "name": "net/minecraft/world/structure/Structure",
+  "field": [
+    {
+      "obf": "a",
+      "name": "data",
+      "type": "Lnone/aww;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "loadStructureData",
+      "signature": "(Lnone/aid;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "generateRecursively",
+      "signature": "(Lnone/aid;IIIILnone/atv;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "generate",
+      "signature": "(Lnone/aid;Ljava/util/Random;Lnone/ahw;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "random"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "signature": "(Lnone/aid;Lnone/cm;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        }
+      ]
+    }
+  ],
+  "innerClass": []
+}
