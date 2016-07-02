@@ -1,0 +1,15 @@
+{
+  "obf": "sf",
+  "name": "net/minecraft/entity/EntityLivingBase",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getEquipment",
+      "signature": "(Lnone/sb;)Lnone/adz;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

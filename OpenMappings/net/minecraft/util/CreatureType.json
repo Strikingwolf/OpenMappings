@@ -1,0 +1,24 @@
+{
+  "obf": "sk",
+  "name": "net/minecraft/util/CreatureType",
+  "field": [
+    {
+      "obf": "a",
+      "name": "UNKNOWN",
+      "type": "Lnone/sk;"
+    },
+    {
+      "obf": "b",
+      "name": "UNDEAD",
+      "type": "Lnone/sk;"
+    },
+    {
+      "obf": "c",
+      "name": "ARTHROPOD",
+      "type": "Lnone/sk;"
+    }
+  ],
+  "constructors": [],
+  "method": [],
+  "innerClass": []
+}

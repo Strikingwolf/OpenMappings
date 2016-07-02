@@ -1,0 +1,93 @@
+{
+  "obf": "sb",
+  "name": "net/minecraft/inventory/EquipmentType",
+  "field": [
+    {
+      "obf": "a",
+      "name": "MAINHAND",
+      "type": "Lnone/sb;"
+    },
+    {
+      "obf": "b",
+      "name": "OFFHAND",
+      "type": "Lnone/sb;"
+    },
+    {
+      "obf": "c",
+      "name": "FEET",
+      "type": "Lnone/sb;"
+    },
+    {
+      "obf": "d",
+      "name": "LEGS",
+      "type": "Lnone/sb;"
+    },
+    {
+      "obf": "e",
+      "name": "CHEST",
+      "type": "Lnone/sb;"
+    },
+    {
+      "obf": "f",
+      "name": "HEAD",
+      "type": "Lnone/sb;"
+    },
+    {
+      "obf": "g",
+      "name": "type",
+      "type": "Lnone/sb$a;"
+    },
+    {
+      "obf": "j",
+      "name": "name",
+      "type": "Ljava/lang/String;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getType",
+      "signature": "()Lnone/sb$a;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "fromName",
+      "signature": "(Ljava/lang/String;)Lnone/sb;",
+      "args": [
+        {
+          "index": 0,
+          "name": "name"
+        }
+      ]
+    },
+    {
+      "obf": "d",
+      "name": "getName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "sb$a",
+      "name": "Type",
+      "field": [
+        {
+          "obf": "a",
+          "name": "HAND",
+          "type": "Lnone/sb$a;"
+        },
+        {
+          "obf": "b",
+          "name": "ARMOR",
+          "type": "Lnone/sb$a;"
+        }
+      ],
+      "constructors": [],
+      "method": [],
+      "innerClass": []
+    }
+  ]
+}

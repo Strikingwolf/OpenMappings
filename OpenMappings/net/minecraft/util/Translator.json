@@ -1,0 +1,15 @@
+{
+  "obf": "dl",
+  "name": "net/minecraft/util/Translator",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "toLocal",
+      "signature": "(Ljava/lang/String;)Ljava/lang/String;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

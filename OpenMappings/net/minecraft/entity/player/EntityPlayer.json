@@ -96,6 +96,12 @@
     },
     {
       "obf": "a",
+      "name": "getEquipment",
+      "signature": "(Lnone/sb;)Lnone/adz;",
+      "args": []
+    },
+    {
+      "obf": "a",
       "signature": "(Lnone/wr;Lnone/ql;)V",
       "args": [
         {
