@@ -3,6 +3,11 @@
   "name": "net/minecraft/block/material/Material",
   "field": [
     {
+      "obf": "G",
+      "name": "WEB",
+      "type": "Lnone/axx;"
+    },
+    {
       "obf": "N",
       "name": "color",
       "type": "Lnone/axy;"

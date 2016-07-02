@@ -4,5 +4,20 @@
   "field": [],
   "constructors": [],
   "method": [],
-  "innerClass": []
+  "innerClass": [
+    {
+      "obf": "akc$1",
+      "field": [],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "run",
+          "name": "run",
+          "signature": "()V",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
 }

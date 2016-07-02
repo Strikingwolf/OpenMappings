@@ -3,6 +3,45 @@
   "name": "net/minecraft/block/BlockCobWeb",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Lnone/rw;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/aid;Lnone/zs;Lnone/cm;Lnone/ars;Lnone/aqk;Lnone/adz;)V",
+      "args": [
+        {
+          "index": 1,
+          "name": "entityPlayer"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/ars;Lnone/aid;Lnone/cm;)Lnone/bby;",
+      "args": [
+        {
+          "index": 1,
+          "name": "world"
+        },
+        {
+          "index": 2,
+          "name": "pos"
+        }
+      ]
+    }
+  ],
   "innerClass": []
 }
