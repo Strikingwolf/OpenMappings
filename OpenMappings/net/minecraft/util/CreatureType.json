@@ -1,24 +1,78 @@
 {
-  "obf": "sk",
+  "obf": "sh",
   "name": "net/minecraft/util/CreatureType",
   "field": [
     {
       "obf": "a",
-      "name": "UNKNOWN",
-      "type": "Lnone/sk;"
+      "name": "MONSTER",
+      "type": "Lnone/sh;"
     },
     {
       "obf": "b",
-      "name": "UNDEAD",
-      "type": "Lnone/sk;"
+      "name": "ANIMAL",
+      "type": "Lnone/sh;"
     },
     {
       "obf": "c",
-      "name": "ARTHROPOD",
-      "type": "Lnone/sk;"
+      "name": "ATMOSPHERIC",
+      "type": "Lnone/sh;"
+    },
+    {
+      "obf": "d",
+      "name": "AQUATIC",
+      "type": "Lnone/sh;"
+    },
+    {
+      "obf": "e",
+      "name": "baseClass",
+      "type": "Ljava/lang/Class;"
+    },
+    {
+      "obf": "f",
+      "name": "entityCap",
+      "type": "I"
+    },
+    {
+      "obf": "g",
+      "name": "preferedMaterial",
+      "type": "Lnone/axx;"
+    },
+    {
+      "obf": "h",
+      "name": "isPeaceful",
+      "type": "Z"
+    },
+    {
+      "obf": "i",
+      "name": "isAnimal",
+      "type": "Z"
     }
   ],
-  "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getBaseClass",
+      "signature": "()Ljava/lang/Class;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getEntityCap",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "isPeaceful",
+      "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "isAnimal",
+      "signature": "()Z",
+      "args": []
+    }
+  ],
   "innerClass": []
 }
