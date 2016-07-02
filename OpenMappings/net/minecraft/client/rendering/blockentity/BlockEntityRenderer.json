@@ -1,0 +1,43 @@
+{
+  "obf": "bqg",
+  "name": "net/minecraft/client/rendering/blockentity/BlockEntityRenderer",
+  "field": [
+    {
+      "obf": "b",
+      "name": "TEXTURE_BREAKING_STAGES",
+      "type": "[Lnone/kn;"
+    },
+    {
+      "obf": "c",
+      "name": "renderDispatcher",
+      "type": "Lnone/bqf;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getWorld",
+      "signature": "()Lnone/aid;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "renderBlockEntity",
+      "signature": "(Lnone/aqk;DDDFI)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "bindTexture",
+      "signature": "(Lnone/kn;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "texture"
+        }
+      ]
+    }
+  ],
+  "innerClass": []
+}
