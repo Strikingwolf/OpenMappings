@@ -1,0 +1,35 @@
+{
+  "obf": "agb",
+  "name": "net/minecraft/crafting/RecipeMapExtension",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getResults",
+      "signature": "(Lnone/abl;)Lnone/adz;",
+      "args": [
+        {
+          "index": 0,
+          "name": "inventory"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "matches",
+      "signature": "(Lnone/abl;Lnone/aid;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "inventory"
+        },
+        {
+          "index": 1,
+          "name": "world"
+        }
+      ]
+    }
+  ],
+  "innerClass": []
+}

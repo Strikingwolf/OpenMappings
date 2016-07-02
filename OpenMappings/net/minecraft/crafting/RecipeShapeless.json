@@ -37,6 +37,18 @@
       "args": []
     },
     {
+      "obf": "a",
+      "name": "getResults",
+      "signature": "(Lnone/abl;)Lnone/adz;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "matches",
+      "signature": "(Lnone/abl;Lnone/aid;)Z",
+      "args": []
+    },
+    {
       "obf": "b",
       "name": "getResult",
       "signature": "()Lnone/adz;",
