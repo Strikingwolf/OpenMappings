@@ -6,6 +6,11 @@
       "obf": "a",
       "name": "data",
       "type": "Lnone/aww;"
+    },
+    {
+      "obf": "c",
+      "name": "startingPoints",
+      "type": "Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;"
     }
   ],
   "constructors": [],
@@ -15,6 +20,21 @@
       "name": "getName",
       "signature": "()Ljava/lang/String;",
       "args": []
+    },
+    {
+      "obf": "a",
+      "name": "allowSpawn",
+      "signature": "(II)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "chunkX"
+        },
+        {
+          "index": 1,
+          "name": "chunkY"
+        }
+      ]
     },
     {
       "obf": "a",
@@ -54,12 +74,57 @@
       ]
     },
     {
+      "obf": "a",
+      "signature": "(Lnone/aid;Lnone/cm;)Lnone/cm;",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "getStartingPoint",
+      "signature": "(II)Lnone/awy;",
+      "args": []
+    },
+    {
       "obf": "b",
       "signature": "(Lnone/aid;Lnone/cm;)Z",
       "args": [
         {
           "index": 0,
           "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "isInStructure",
+      "signature": "(Lnone/cm;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "pos"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "signature": "(Lnone/cm;)Lnone/awy;",
+      "args": [
+        {
+          "index": 0,
+          "name": "pos"
         }
       ]
     }

@@ -1,0 +1,99 @@
+{
+  "obf": "atm",
+  "name": "net/minecraft/world/DimensionType",
+  "field": [
+    {
+      "obf": "a",
+      "name": "OVERWORLD",
+      "type": "Lnone/atm;"
+    },
+    {
+      "obf": "b",
+      "name": "NETHER",
+      "type": "Lnone/atm;"
+    },
+    {
+      "obf": "c",
+      "name": "END",
+      "type": "Lnone/atm;"
+    },
+    {
+      "obf": "d",
+      "name": "id",
+      "type": "I"
+    },
+    {
+      "obf": "e",
+      "name": "name",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "f",
+      "name": "suffix",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "g",
+      "name": "dimensionClass",
+      "type": "Ljava/lang/Class;"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/Class;)V",
+      "args": [
+        {
+          "index": 3,
+          "name": "id"
+        },
+        {
+          "index": 4,
+          "name": "name"
+        },
+        {
+          "index": 5,
+          "name": "suffix"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getId",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getDimension",
+      "signature": "(I)Lnone/atm;",
+      "args": [
+        {
+          "index": 0,
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "getName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getSuffix",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "createDimension",
+      "signature": "()Lnone/atl;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

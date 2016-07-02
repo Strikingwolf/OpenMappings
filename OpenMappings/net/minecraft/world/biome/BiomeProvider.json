@@ -1,0 +1,53 @@
+{
+  "obf": "aiu",
+  "name": "net/minecraft/world/biome/BiomeProvider",
+  "field": [
+    {
+      "obf": "c",
+      "name": "cache",
+      "type": "Lnone/air;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getBiomes",
+      "signature": "()Ljava/util/List;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getBiome",
+      "signature": "(Lnone/cm;)Lnone/aiq;",
+      "args": [
+        {
+          "index": 0,
+          "name": "pos"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getBiome",
+      "signature": "(Lnone/cm;Lnone/aiq;)Lnone/aiq;",
+      "args": [
+        {
+          "index": 0,
+          "name": "pos"
+        },
+        {
+          "index": 1,
+          "name": "defaultBiome"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "cleanCache",
+      "signature": "()V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

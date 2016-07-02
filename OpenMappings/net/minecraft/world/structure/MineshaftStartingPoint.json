@@ -1,0 +1,41 @@
+{
+  "obf": "awl",
+  "name": "net/minecraft/world/structure/MineshaftStartingPoint",
+  "field": [
+    {
+      "obf": "c",
+      "name": "shaftType",
+      "type": "Lnone/awj$a;"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(Lnone/aid;Ljava/util/Random;IILnone/awj$a;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "random"
+        },
+        {
+          "index": 2,
+          "name": "chunkX"
+        },
+        {
+          "index": 3,
+          "name": "chunkY"
+        },
+        {
+          "index": 4,
+          "name": "shaftType"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [],
+  "innerClass": []
+}

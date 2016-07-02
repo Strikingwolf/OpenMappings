@@ -28,6 +28,11 @@
       "type": "Ljava/util/List;"
     },
     {
+      "obf": "f",
+      "name": "file",
+      "type": "Ljava/io/File;"
+    },
+    {
       "obf": "h",
       "name": "stackTrace",
       "type": "[Ljava/lang/StackTraceElement;"
@@ -58,6 +63,17 @@
     },
     {
       "obf": "a",
+      "name": "save",
+      "signature": "(Ljava/io/File;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "file"
+        }
+      ]
+    },
+    {
+      "obf": "a",
       "name": "addElement",
       "signature": "(Ljava/lang/String;)Lnone/c;",
       "args": []
@@ -67,6 +83,17 @@
       "name": "addElement",
       "signature": "(Ljava/lang/String;I)Lnone/c;",
       "args": []
+    },
+    {
+      "obf": "a",
+      "name": "appendElements",
+      "signature": "(Ljava/lang/StringBuilder;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "builder"
+        }
+      ]
     },
     {
       "obf": "a",
@@ -87,6 +114,18 @@
       "obf": "b",
       "name": "getCause",
       "signature": "()Ljava/lang/Throwable;",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "toString",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "f",
+      "name": "getFile",
+      "signature": "()Ljava/io/File;",
       "args": []
     },
     {

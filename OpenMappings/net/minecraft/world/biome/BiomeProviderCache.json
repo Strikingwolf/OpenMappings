@@ -1,0 +1,157 @@
+{
+  "obf": "air",
+  "name": "net/minecraft/world/biome/BiomeProviderCache",
+  "field": [
+    {
+      "obf": "a",
+      "name": "provider",
+      "type": "Lnone/aiu;"
+    },
+    {
+      "obf": "b",
+      "name": "lastCleanup",
+      "type": "J"
+    },
+    {
+      "obf": "c",
+      "name": "cache",
+      "type": "Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;"
+    },
+    {
+      "obf": "d",
+      "name": "cacheList",
+      "type": "Ljava/util/List;"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(Lnone/aiu;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "provider"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [
+    {
+      "obf": "a",
+      "name": "clean",
+      "signature": "()V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getChunkCache",
+      "signature": "(II)Lnone/air$a;",
+      "args": [
+        {
+          "index": 0,
+          "name": "x"
+        },
+        {
+          "index": 1,
+          "name": "y"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getBiome",
+      "signature": "(IILnone/aiq;)Lnone/aiq;",
+      "args": [
+        {
+          "index": 0,
+          "name": "x"
+        },
+        {
+          "index": 1,
+          "name": "z"
+        },
+        {
+          "index": 2,
+          "name": "defaultValue"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "getBiomes",
+      "signature": "(II)[Lnone/aiq;",
+      "args": [
+        {
+          "index": 0,
+          "name": "chunkX"
+        },
+        {
+          "index": 1,
+          "name": "chunkY"
+        }
+      ]
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "air$a",
+      "name": "ChunkCache",
+      "field": [
+        {
+          "obf": "a",
+          "name": "biomes",
+          "type": "[Lnone/aiq;"
+        },
+        {
+          "obf": "b",
+          "name": "x",
+          "type": "I"
+        },
+        {
+          "obf": "c",
+          "name": "z",
+          "type": "I"
+        },
+        {
+          "obf": "d",
+          "name": "lastUse",
+          "type": "J"
+        }
+      ],
+      "constructors": [
+        {
+          "signature": "(Lnone/air;II)V",
+          "args": [
+            {
+              "index": 1,
+              "name": "x"
+            },
+            {
+              "index": 2,
+              "name": "z"
+            }
+          ],
+          "statics": false
+        }
+      ],
+      "method": [
+        {
+          "obf": "a",
+          "name": "getBiome",
+          "signature": "(II)Lnone/aiq;",
+          "args": [
+            {
+              "index": 0,
+              "name": "chunkX"
+            },
+            {
+              "index": 1,
+              "name": "chunkZ"
+            }
+          ]
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}

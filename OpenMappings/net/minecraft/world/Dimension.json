@@ -1,8 +1,112 @@
 {
   "obf": "atl",
   "name": "net/minecraft/world/Dimension",
-  "field": [],
+  "field": [
+    {
+      "obf": "b",
+      "name": "world",
+      "type": "Lnone/aid;"
+    },
+    {
+      "obf": "d",
+      "name": "hell",
+      "type": "Z"
+    },
+    {
+      "obf": "e",
+      "name": "disableSky",
+      "type": "Z"
+    },
+    {
+      "obf": "g",
+      "name": "worldType",
+      "type": "Lnone/aii;"
+    },
+    {
+      "obf": "h",
+      "name": "options",
+      "type": "Ljava/lang/String;"
+    }
+  ],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "isAllowedSpawn",
+      "signature": "(II)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "x"
+        },
+        {
+          "index": 1,
+          "name": "y"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/aid;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "onPlayerJoin",
+      "signature": "(Lnone/lu;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "player"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "onPlayerLeave",
+      "signature": "(Lnone/lu;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "player"
+        }
+      ]
+    },
+    {
+      "obf": "l",
+      "name": "isHell",
+      "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "m",
+      "name": "isSkyDisabled",
+      "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "o",
+      "name": "createBorder",
+      "signature": "()Lnone/asm;",
+      "args": []
+    },
+    {
+      "obf": "p",
+      "name": "getType",
+      "signature": "()Lnone/atm;",
+      "args": []
+    },
+    {
+      "obf": "q",
+      "name": "onSave",
+      "signature": "()V",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

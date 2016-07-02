@@ -1,0 +1,45 @@
+{
+  "obf": "awy",
+  "name": "net/minecraft/world/structure/StartingPoint",
+  "field": [
+    {
+      "obf": "a",
+      "name": "parts",
+      "type": "Ljava/util/List;"
+    },
+    {
+      "obf": "b",
+      "name": "box",
+      "type": "Lnone/awg;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "generate",
+      "signature": "(Lnone/aid;Ljava/util/Random;Lnone/awg;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "random"
+        },
+        {
+          "index": 2,
+          "name": "box"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "name": "getParts",
+      "signature": "()Ljava/util/List;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

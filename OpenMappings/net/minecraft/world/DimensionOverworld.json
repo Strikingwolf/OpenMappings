@@ -1,0 +1,15 @@
+{
+  "obf": "ato",
+  "name": "net/minecraft/world/DimensionOverworld",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "p",
+      "name": "getType",
+      "signature": "()Lnone/atm;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

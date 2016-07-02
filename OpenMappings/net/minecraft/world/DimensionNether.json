@@ -1,0 +1,27 @@
+{
+  "obf": "atn",
+  "name": "net/minecraft/world/DimensionNether",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "isAllowedSpawn",
+      "signature": "(II)Z",
+      "args": []
+    },
+    {
+      "obf": "o",
+      "name": "createBorder",
+      "signature": "()Lnone/asm;",
+      "args": []
+    },
+    {
+      "obf": "p",
+      "name": "getType",
+      "signature": "()Lnone/atm;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

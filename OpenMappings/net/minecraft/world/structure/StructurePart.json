@@ -1,0 +1,50 @@
+{
+  "obf": "awx",
+  "name": "net/minecraft/world/structure/StructurePart",
+  "field": [
+    {
+      "obf": "a",
+      "name": "side",
+      "type": "Lnone/ct;"
+    },
+    {
+      "obf": "b",
+      "name": "mirror",
+      "type": "Lnone/anf;"
+    },
+    {
+      "obf": "l",
+      "name": "box",
+      "type": "Lnone/awg;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "generate",
+      "signature": "(Lnone/aid;Ljava/util/Random;Lnone/awg;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "random"
+        },
+        {
+          "index": 2,
+          "name": "box"
+        }
+      ]
+    },
+    {
+      "obf": "d",
+      "name": "getBoundingBox",
+      "signature": "()Lnone/awg;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

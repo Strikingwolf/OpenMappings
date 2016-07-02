@@ -1,0 +1,24 @@
+{
+  "obf": "anf",
+  "name": "net/minecraft/util/Mirror",
+  "field": [
+    {
+      "obf": "a",
+      "name": "NONE",
+      "type": "Lnone/anf;"
+    },
+    {
+      "obf": "b",
+      "name": "LEFT_RIGHT",
+      "type": "Lnone/anf;"
+    },
+    {
+      "obf": "c",
+      "name": "FRONT_BACK",
+      "type": "Lnone/anf;"
+    }
+  ],
+  "constructors": [],
+  "method": [],
+  "innerClass": []
+}

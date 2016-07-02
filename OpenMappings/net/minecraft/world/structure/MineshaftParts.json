@@ -1,0 +1,83 @@
+{
+  "obf": "awk",
+  "name": "net/minecraft/world/structure/MineshaftParts",
+  "field": [],
+  "constructors": [],
+  "method": [],
+  "innerClass": [
+    {
+      "obf": "awk$a",
+      "name": "Corridor",
+      "field": [],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "a",
+          "name": "generate",
+          "signature": "(Lnone/aid;Ljava/util/Random;Lnone/awg;)Z",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    },
+    {
+      "obf": "awk$b",
+      "name": "Cross",
+      "field": [],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "a",
+          "name": "generate",
+          "signature": "(Lnone/aid;Ljava/util/Random;Lnone/awg;)Z",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    },
+    {
+      "obf": "awk$c",
+      "name": "Part",
+      "field": [
+        {
+          "obf": "a",
+          "name": "shaftType",
+          "type": "Lnone/awj$a;"
+        }
+      ],
+      "constructors": [],
+      "method": [],
+      "innerClass": []
+    },
+    {
+      "obf": "awk$d",
+      "name": "Room",
+      "field": [],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "a",
+          "name": "generate",
+          "signature": "(Lnone/aid;Ljava/util/Random;Lnone/awg;)Z",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    },
+    {
+      "obf": "awk$e",
+      "name": "Stairs",
+      "field": [],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "a",
+          "name": "generate",
+          "signature": "(Lnone/aid;Ljava/util/Random;Lnone/awg;)Z",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "obf": "awj",
+  "name": "net/minecraft/world/structure/StructureMineshaft",
+  "field": [
+    {
+      "obf": "a",
+      "name": "chance",
+      "type": "D"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "allowSpawn",
+      "signature": "(II)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "chunkX"
+        },
+        {
+          "index": 1,
+          "name": "chunkY"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "getStartingPoint",
+      "signature": "(II)Lnone/awy;",
+      "args": [
+        {
+          "index": 0,
+          "name": "chunkX"
+        },
+        {
+          "index": 1,
+          "name": "chunkY"
+        }
+      ]
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "awj$a",
+      "name": "Type",
+      "field": [
+        {
+          "obf": "a",
+          "name": "NORMAL",
+          "type": "Lnone/awj$a;"
+        },
+        {
+          "obf": "b",
+          "name": "MESA",
+          "type": "Lnone/awj$a;"
+        }
+      ],
+      "constructors": [],
+      "method": [],
+      "innerClass": []
+    }
+  ]
+}

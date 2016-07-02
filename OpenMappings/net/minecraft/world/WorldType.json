@@ -1,0 +1,134 @@
+{
+  "obf": "aii",
+  "name": "net/minecraft/world/WorldType",
+  "field": [
+    {
+      "obf": "a",
+      "name": "WORLD_TYPES",
+      "type": "[Lnone/aii;"
+    },
+    {
+      "obf": "b",
+      "name": "DEFAULT",
+      "type": "Lnone/aii;"
+    },
+    {
+      "obf": "c",
+      "name": "FLAT",
+      "type": "Lnone/aii;"
+    },
+    {
+      "obf": "d",
+      "name": "LARGE_BIOMES",
+      "type": "Lnone/aii;"
+    },
+    {
+      "obf": "e",
+      "name": "AMPLIFIED",
+      "type": "Lnone/aii;"
+    },
+    {
+      "obf": "f",
+      "name": "CUSTOMIZED",
+      "type": "Lnone/aii;"
+    },
+    {
+      "obf": "g",
+      "name": "DEBUG",
+      "type": "Lnone/aii;"
+    },
+    {
+      "obf": "h",
+      "name": "DEFAULT_1_1",
+      "type": "Lnone/aii;"
+    },
+    {
+      "obf": "i",
+      "name": "id",
+      "type": "I"
+    },
+    {
+      "obf": "j",
+      "name": "name",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "k",
+      "name": "version",
+      "type": "I"
+    },
+    {
+      "obf": "l",
+      "name": "enabled",
+      "type": "Z"
+    },
+    {
+      "obf": "m",
+      "name": "versioned",
+      "type": "Z"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "setEnabled",
+      "signature": "(Z)Lnone/aii;",
+      "args": [
+        {
+          "index": 0,
+          "name": "enabled"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "getUnlocalizedName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getUnlocalizedInfoName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "getVersion",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "isEnabled",
+      "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "f",
+      "name": "isVersioned",
+      "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "g",
+      "name": "getId",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "i",
+      "name": "setVersioned",
+      "signature": "()Lnone/aii;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

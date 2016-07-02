@@ -42,15 +42,65 @@
   "method": [
     {
       "obf": "a",
-      "name": "addEntry",
-      "signature": "(Ljava/lang/String;Ljava/lang/Object;)V",
+      "name": "getStackTrace",
+      "signature": "()[Ljava/lang/StackTraceElement;",
       "args": []
     },
     {
       "obf": "a",
       "name": "addEntry",
+      "signature": "(Ljava/lang/String;Ljava/lang/Object;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "name"
+        },
+        {
+          "index": 1,
+          "name": "value"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "addErrorEntry",
+      "signature": "(Ljava/lang/String;Ljava/lang/Throwable;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "name"
+        },
+        {
+          "index": 1,
+          "name": "error"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "addEntry",
       "signature": "(Ljava/lang/String;Lnone/d;)V",
-      "args": []
+      "args": [
+        {
+          "index": 0,
+          "name": "name"
+        },
+        {
+          "index": 1,
+          "name": "entry"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "append",
+      "signature": "(Ljava/lang/StringBuilder;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "builder"
+        }
+      ]
     }
   ],
   "innerClass": [
@@ -76,6 +126,10 @@
             {
               "index": 0,
               "name": "name"
+            },
+            {
+              "index": 1,
+              "name": "value"
             }
           ],
           "statics": false

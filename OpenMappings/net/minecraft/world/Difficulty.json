@@ -1,7 +1,28 @@
 {
   "obf": "qp",
   "name": "net/minecraft/world/Difficulty",
-  "field": [],
+  "field": [
+    {
+      "obf": "a",
+      "name": "PEACEFUL",
+      "type": "Lnone/qp;"
+    },
+    {
+      "obf": "b",
+      "name": "EASY",
+      "type": "Lnone/qp;"
+    },
+    {
+      "obf": "c",
+      "name": "NORMAL",
+      "type": "Lnone/qp;"
+    },
+    {
+      "obf": "d",
+      "name": "HARD",
+      "type": "Lnone/qp;"
+    }
+  ],
   "constructors": [],
   "method": [],
   "innerClass": []

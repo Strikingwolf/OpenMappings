@@ -1,0 +1,50 @@
+{
+  "obf": "awg",
+  "name": "net/minecraft/world/structure/BoundingBox",
+  "field": [
+    {
+      "obf": "a",
+      "name": "minX",
+      "type": "I"
+    },
+    {
+      "obf": "b",
+      "name": "minY",
+      "type": "I"
+    },
+    {
+      "obf": "c",
+      "name": "minZ",
+      "type": "I"
+    },
+    {
+      "obf": "d",
+      "name": "maxX",
+      "type": "I"
+    },
+    {
+      "obf": "e",
+      "name": "maxY",
+      "type": "I"
+    },
+    {
+      "obf": "f",
+      "name": "maxZ",
+      "type": "I"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "([I)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "bounds"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [],
+  "innerClass": []
+}

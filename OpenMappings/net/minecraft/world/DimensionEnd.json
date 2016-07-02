@@ -1,0 +1,27 @@
+{
+  "obf": "atr",
+  "name": "net/minecraft/world/DimensionEnd",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "isAllowedSpawn",
+      "signature": "(II)Z",
+      "args": []
+    },
+    {
+      "obf": "p",
+      "name": "getType",
+      "signature": "()Lnone/atm;",
+      "args": []
+    },
+    {
+      "obf": "q",
+      "name": "onSave",
+      "signature": "()V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

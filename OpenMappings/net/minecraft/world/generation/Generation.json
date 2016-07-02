@@ -1,14 +1,54 @@
 {
   "obf": "aua",
   "name": "net/minecraft/world/generation/Generation",
-  "field": [],
+  "field": [
+    {
+      "obf": "e",
+      "name": "range",
+      "type": "I"
+    },
+    {
+      "obf": "f",
+      "name": "random",
+      "type": "Ljava/util/Random;"
+    },
+    {
+      "obf": "g",
+      "name": "world",
+      "type": "Lnone/aid;"
+    }
+  ],
   "constructors": [],
   "method": [
     {
       "obf": "a",
       "name": "generateRecursively",
       "signature": "(Lnone/aid;IIIILnone/atv;)V",
-      "args": []
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "generate",
+      "signature": "(Lnone/aid;IILnone/atv;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "chunkX"
+        },
+        {
+          "index": 2,
+          "name": "chunkY"
+        }
+      ]
     }
   ],
   "innerClass": []

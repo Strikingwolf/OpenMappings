@@ -1,8 +1,268 @@
 {
   "obf": "baa",
   "name": "net/minecraft/world/WorldData",
-  "field": [],
+  "field": [
+    {
+      "obf": "A",
+      "name": "cheats",
+      "type": "Z"
+    },
+    {
+      "obf": "C",
+      "name": "difficulty",
+      "type": "Lnone/qp;"
+    },
+    {
+      "obf": "D",
+      "name": "difficultyLocked",
+      "type": "Z"
+    },
+    {
+      "obf": "a",
+      "name": "DEFAULT_DIFFICULTY",
+      "type": "Lnone/qp;"
+    },
+    {
+      "obf": "b",
+      "name": "version",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "e",
+      "name": "seed",
+      "type": "J"
+    },
+    {
+      "obf": "f",
+      "name": "type",
+      "type": "Lnone/aii;"
+    },
+    {
+      "obf": "g",
+      "name": "options",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "h",
+      "name": "spawnX",
+      "type": "I"
+    },
+    {
+      "obf": "i",
+      "name": "spawnY",
+      "type": "I"
+    },
+    {
+      "obf": "j",
+      "name": "spawnZ",
+      "type": "I"
+    },
+    {
+      "obf": "x",
+      "name": "mode",
+      "type": "Lnone/aib;"
+    },
+    {
+      "obf": "z",
+      "name": "hardcore",
+      "type": "Z"
+    }
+  ],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "A",
+      "name": "getGeneratorOptions",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "M",
+      "name": "getVersion",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getSeed",
+      "signature": "()J",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "setSpawnX",
+      "signature": "(I)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "x"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "setGameMode",
+      "signature": "(Lnone/aib;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "mode"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "setWorldType",
+      "signature": "(Lnone/aii;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "type"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "addWorldInfo",
+      "signature": "(Lnone/c;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "element"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "setSpawn",
+      "signature": "(Lnone/cm;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "pos"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "setDifficulty",
+      "signature": "(Lnone/qp;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "difficulty"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "getSpawnX",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "setSpawnY",
+      "signature": "(I)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "y"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "name": "getSpawnY",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "setSpawnZ",
+      "signature": "(I)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "z"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "name": "setCheatsEnabled",
+      "signature": "(Z)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "cheats"
+        }
+      ]
+    },
+    {
+      "obf": "d",
+      "name": "getSpawnZ",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "setDifficultyLocked",
+      "signature": "(Z)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "locked"
+        }
+      ]
+    },
+    {
+      "obf": "g",
+      "name": "setHardcore",
+      "signature": "(Z)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "hardcore"
+        }
+      ]
+    },
+    {
+      "obf": "q",
+      "name": "getGameMode",
+      "signature": "()Lnone/aib;",
+      "args": []
+    },
+    {
+      "obf": "s",
+      "name": "isHardcore",
+      "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "t",
+      "name": "getWorldType",
+      "signature": "()Lnone/aii;",
+      "args": []
+    },
+    {
+      "obf": "u",
+      "name": "areCheatsEnabled",
+      "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "x",
+      "name": "getDifficulty",
+      "signature": "()Lnone/qp;",
+      "args": []
+    },
+    {
+      "obf": "y",
+      "name": "isDifficultyLocked",
+      "signature": "()Z",
+      "args": []
+    }
+  ],
   "innerClass": []
 }
