@@ -3,6 +3,13 @@
   "name": "net/minecraft/item/ItemSkull",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getMetaData",
+      "signature": "(I)I",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

@@ -48,6 +48,12 @@
     },
     {
       "obf": "a",
+      "name": "getMetaData",
+      "signature": "(I)I",
+      "args": []
+    },
+    {
+      "obf": "a",
       "name": "registerItem",
       "signature": "(ILjava/lang/String;Lnone/adx;)V",
       "args": [
@@ -121,6 +127,12 @@
       "obf": "a",
       "name": "isToolEffective",
       "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "setHasSubTypes",
+      "signature": "(Z)Lnone/adx;",
       "args": []
     },
     {

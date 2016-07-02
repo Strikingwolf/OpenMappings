@@ -5,6 +5,12 @@
   "constructors": [],
   "method": [
     {
+      "obf": "a",
+      "name": "getMetaData",
+      "signature": "(I)I",
+      "args": []
+    },
+    {
       "obf": "f_",
       "name": "getUnlocalizedName",
       "signature": "(Lnone/adz;)Ljava/lang/String;",
