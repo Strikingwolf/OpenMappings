@@ -1,6 +1,6 @@
 {
-  "obf": "amy",
-  "name": "net/minecraft/block/BlockLeaves",
+  "obf": "ant",
+  "name": "net/minecraft/block/BlockOldLeaves",
   "field": [],
   "constructors": [],
   "method": [],
