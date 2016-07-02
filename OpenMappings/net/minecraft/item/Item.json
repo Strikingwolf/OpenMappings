@@ -23,6 +23,11 @@
       "type": "I"
     },
     {
+      "obf": "m",
+      "name": "hasSubTypes",
+      "type": "Z"
+    },
+    {
       "obf": "n",
       "name": "creativeTab",
       "type": "Lnone/acz;"
@@ -31,6 +36,11 @@
       "obf": "o",
       "name": "maxDamage",
       "type": "I"
+    },
+    {
+      "obf": "p",
+      "name": "container",
+      "type": "Lnone/adx;"
     },
     {
       "obf": "q",
@@ -98,6 +108,17 @@
     },
     {
       "obf": "a",
+      "name": "getNumericID",
+      "signature": "(Lnone/adx;)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "item"
+        }
+      ]
+    },
+    {
+      "obf": "a",
       "name": "addSubItems",
       "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
       "args": []
@@ -149,6 +170,17 @@
         {
           "index": 0,
           "name": "block"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "name": "getItemByID",
+      "signature": "(I)Lnone/adx;",
+      "args": [
+        {
+          "index": 0,
+          "name": "itemID"
         }
       ]
     },
