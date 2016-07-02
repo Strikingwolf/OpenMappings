@@ -1,6 +1,6 @@
 {
   "obf": "agd",
-  "name": "net/minecraft/crafting/IRecipe",
+  "name": "net/minecraft/crafting/Recipe",
   "field": [],
   "constructors": [],
   "method": [
