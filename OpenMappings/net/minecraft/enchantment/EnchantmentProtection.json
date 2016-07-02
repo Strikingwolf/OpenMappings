@@ -1,0 +1,86 @@
+{
+  "obf": "ahh",
+  "name": "net/minecraft/enchantment/EnchantmentProtection",
+  "field": [
+    {
+      "obf": "a",
+      "name": "type",
+      "type": "Lnone/ahh$a;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getTranslationKey",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getLowestEnchantability",
+      "signature": "(I)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getModifiedDamage",
+      "signature": "(ILnone/rh;)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "isCompatableWith",
+      "signature": "(Lnone/agv;)Z",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHighestLevel",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHighestEnchantability",
+      "signature": "(I)I",
+      "args": []
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "ahh$a",
+      "name": "Type",
+      "field": [
+        {
+          "obf": "a",
+          "name": "ALL",
+          "type": "Lnone/ahh$a;"
+        },
+        {
+          "obf": "b",
+          "name": "FIRE",
+          "type": "Lnone/ahh$a;"
+        },
+        {
+          "obf": "c",
+          "name": "FALL",
+          "type": "Lnone/ahh$a;"
+        },
+        {
+          "obf": "d",
+          "name": "EXPLOSION",
+          "type": "Lnone/ahh$a;"
+        },
+        {
+          "obf": "e",
+          "name": "PROJECTILE",
+          "type": "Lnone/ahh$a;"
+        }
+      ],
+      "constructors": [],
+      "method": [],
+      "innerClass": []
+    }
+  ]
+}

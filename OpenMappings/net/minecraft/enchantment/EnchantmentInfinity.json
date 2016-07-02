@@ -1,0 +1,27 @@
+{
+  "obf": "agq",
+  "name": "net/minecraft/enchantment/EnchantmentInfinity",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getLowestEnchantability",
+      "signature": "(I)I",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHighestLevel",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHighestEnchantability",
+      "signature": "(I)I",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

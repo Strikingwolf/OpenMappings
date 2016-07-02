@@ -1,0 +1,64 @@
+{
+  "obf": "agw",
+  "name": "net/minecraft/enchantment/EnchantmentType",
+  "field": [
+    {
+      "obf": "a",
+      "name": "ALL",
+      "type": "Lnone/agw;"
+    },
+    {
+      "obf": "b",
+      "name": "ARMOR",
+      "type": "Lnone/agw;"
+    },
+    {
+      "obf": "c",
+      "name": "FEET",
+      "type": "Lnone/agw;"
+    },
+    {
+      "obf": "d",
+      "name": "LEGS",
+      "type": "Lnone/agw;"
+    },
+    {
+      "obf": "e",
+      "name": "CHEST",
+      "type": "Lnone/agw;"
+    },
+    {
+      "obf": "f",
+      "name": "HEAD",
+      "type": "Lnone/agw;"
+    },
+    {
+      "obf": "g",
+      "name": "WEAPON",
+      "type": "Lnone/agw;"
+    },
+    {
+      "obf": "h",
+      "name": "TOOL",
+      "type": "Lnone/agw;"
+    },
+    {
+      "obf": "i",
+      "name": "FISHING",
+      "type": "Lnone/agw;"
+    },
+    {
+      "obf": "j",
+      "name": "BREAKABLE",
+      "type": "Lnone/agw;"
+    },
+    {
+      "obf": "k",
+      "name": "BOW",
+      "type": "Lnone/agw;"
+    }
+  ],
+  "constructors": [],
+  "method": [],
+  "innerClass": []
+}

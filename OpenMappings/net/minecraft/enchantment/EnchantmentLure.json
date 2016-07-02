@@ -1,0 +1,27 @@
+{
+  "obf": "ahb",
+  "name": "net/minecraft/enchantment/EnchantmentLure",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getLowestEnchantability",
+      "signature": "(I)I",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHighestLevel",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHighestEnchantability",
+      "signature": "(I)I",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

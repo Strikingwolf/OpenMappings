@@ -1,0 +1,39 @@
+{
+  "obf": "ahi",
+  "name": "net/minecraft/enchantment/EnchantmentThorns",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getLowestEnchantability",
+      "signature": "(I)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "canApply",
+      "signature": "(Lnone/adz;)Z",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHighestLevel",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHighestEnchantability",
+      "signature": "(I)I",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "onUserAttacked",
+      "signature": "(Lnone/sf;Lnone/rw;I)V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

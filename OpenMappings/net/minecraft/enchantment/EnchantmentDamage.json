@@ -1,0 +1,57 @@
+{
+  "obf": "ags",
+  "name": "net/minecraft/enchantment/EnchantmentDamage",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getTranslationKey",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getLowestEnchantability",
+      "signature": "(I)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getModifiedDamage",
+      "signature": "(ILnone/sk;)F",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "canApply",
+      "signature": "(Lnone/adz;)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "isCompatableWith",
+      "signature": "(Lnone/agv;)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "onTargetDamaged",
+      "signature": "(Lnone/sf;Lnone/rw;I)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHighestLevel",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHighestEnchantability",
+      "signature": "(I)I",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

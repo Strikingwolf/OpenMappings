@@ -1,0 +1,310 @@
+{
+  "obf": "agv",
+  "name": "net/minecraft/enchantment/Enchantment",
+  "field": [
+    {
+      "obf": "a",
+      "name": "equipmentTypes",
+      "type": "[Lnone/sb;"
+    },
+    {
+      "obf": "b",
+      "name": "REGISTRY",
+      "type": "Lnone/da;"
+    },
+    {
+      "obf": "c",
+      "name": "type",
+      "type": "Lnone/agw;"
+    },
+    {
+      "obf": "d",
+      "name": "name",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "e",
+      "name": "rarity",
+      "type": "Lnone/agv$a;"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(Lnone/agv$a;Lnone/agw;[Lnone/sb;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "rarity"
+        },
+        {
+          "index": 1,
+          "name": "enchantType"
+        },
+        {
+          "index": 2,
+          "name": "equipmentTypes"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getTranslationKey",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getLowestEnchantability",
+      "signature": "(I)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "level"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getModifiedDamage",
+      "signature": "(ILnone/rh;)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "level"
+        },
+        {
+          "index": 1,
+          "name": "type"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getModifiedDamage",
+      "signature": "(ILnone/sk;)F",
+      "args": [
+        {
+          "index": 0,
+          "name": "level"
+        },
+        {
+          "index": 1,
+          "name": "type"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "canApply",
+      "signature": "(Lnone/adz;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "isCompatableWith",
+      "signature": "(Lnone/agv;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "enchantment"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getEquipment",
+      "signature": "(Lnone/sf;)Ljava/lang/Iterable;",
+      "args": [
+        {
+          "index": 0,
+          "name": "entityLiving"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "onTargetDamaged",
+      "signature": "(Lnone/sf;Lnone/rw;I)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "user"
+        },
+        {
+          "index": 1,
+          "name": "target"
+        },
+        {
+          "index": 2,
+          "name": "level"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "getHighestLevel",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHighestEnchantability",
+      "signature": "(I)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "level"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "getEnchantmentFromIdentifier",
+      "signature": "(Ljava/lang/String;)Lnone/agv;",
+      "args": [
+        {
+          "index": 0,
+          "name": "identifier"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "getNumericID",
+      "signature": "(Lnone/agv;)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "enchantment"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "onUserAttacked",
+      "signature": "(Lnone/sf;Lnone/rw;I)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "user"
+        },
+        {
+          "index": 1,
+          "name": "attacker"
+        },
+        {
+          "index": 2,
+          "name": "level"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "name": "getRarity",
+      "signature": "()Lnone/agv$a;",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getEnchantmentFromID",
+      "signature": "(I)Lnone/agv;",
+      "args": [
+        {
+          "index": 0,
+          "name": "enchantID"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "name": "setName",
+      "signature": "(Ljava/lang/String;)Lnone/agv;",
+      "args": [
+        {
+          "index": 0,
+          "name": "name"
+        }
+      ]
+    },
+    {
+      "obf": "d",
+      "name": "getLowestLevel",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "getDisplayName",
+      "signature": "(I)Ljava/lang/String;",
+      "args": [
+        {
+          "index": 0,
+          "name": "level"
+        }
+      ]
+    },
+    {
+      "obf": "e",
+      "name": "isTreasureEnchantment",
+      "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "f",
+      "name": "registerEnchantments",
+      "signature": "()V",
+      "args": []
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "agv$a",
+      "name": "EnchantmentRarity",
+      "field": [
+        {
+          "obf": "a",
+          "name": "COMMON",
+          "type": "Lnone/agv$a;"
+        },
+        {
+          "obf": "b",
+          "name": "UNCOMMON",
+          "type": "Lnone/agv$a;"
+        },
+        {
+          "obf": "c",
+          "name": "RARE",
+          "type": "Lnone/agv$a;"
+        },
+        {
+          "obf": "d",
+          "name": "ULTRA_RARE",
+          "type": "Lnone/agv$a;"
+        },
+        {
+          "obf": "e",
+          "name": "weight",
+          "type": "I"
+        }
+      ],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "a",
+          "name": "getWeight",
+          "signature": "()I",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}
