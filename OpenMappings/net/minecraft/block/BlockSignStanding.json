@@ -1,6 +1,6 @@
 {
-  "obf": "aox",
-  "name": "net/minecraft/block/BlockSign",
+  "obf": "api",
+  "name": "net/minecraft/block/BlockSignStanding",
   "field": [],
   "constructors": [],
   "method": [],
