@@ -1,0 +1,29 @@
+{
+  "obf": "aya",
+  "name": "net/minecraft/util/PistonPushResult",
+  "field": [
+    {
+      "obf": "a",
+      "name": "NORMAL",
+      "type": "Lnone/aya;"
+    },
+    {
+      "obf": "b",
+      "name": "DESTROY",
+      "type": "Lnone/aya;"
+    },
+    {
+      "obf": "c",
+      "name": "BLOCK",
+      "type": "Lnone/aya;"
+    },
+    {
+      "obf": "d",
+      "name": "IGNORE",
+      "type": "Lnone/aya;"
+    }
+  ],
+  "constructors": [],
+  "method": [],
+  "innerClass": []
+}
