@@ -1,0 +1,87 @@
+{
+  "obf": "ws",
+  "name": "net/minecraft/util/HorseArmorType",
+  "field": [
+    {
+      "obf": "a",
+      "name": "NONE",
+      "type": "Lnone/ws;"
+    },
+    {
+      "obf": "b",
+      "name": "IRON",
+      "type": "Lnone/ws;"
+    },
+    {
+      "obf": "c",
+      "name": "GOLD",
+      "type": "Lnone/ws;"
+    },
+    {
+      "obf": "d",
+      "name": "DIAMOND",
+      "type": "Lnone/ws;"
+    },
+    {
+      "obf": "e",
+      "name": "textureName",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "f",
+      "name": "hashString",
+      "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "g",
+      "name": "armorPoints",
+      "type": "I"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getOrdinal",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getTypeFromItem",
+      "signature": "(Lnone/adx;)Lnone/ws;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getTypeFromItemStack",
+      "signature": "(Lnone/adz;)Lnone/ws;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getHashString",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "isHorseArmor",
+      "signature": "(Lnone/adx;)Z",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getArmorPoints",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "getTextureName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

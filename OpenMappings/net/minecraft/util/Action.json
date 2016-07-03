@@ -1,0 +1,34 @@
+{
+  "obf": "afj",
+  "name": "net/minecraft/util/Action",
+  "field": [
+    {
+      "obf": "a",
+      "name": "NONE",
+      "type": "Lnone/afj;"
+    },
+    {
+      "obf": "b",
+      "name": "EAT",
+      "type": "Lnone/afj;"
+    },
+    {
+      "obf": "c",
+      "name": "DRINK",
+      "type": "Lnone/afj;"
+    },
+    {
+      "obf": "d",
+      "name": "BLOCK",
+      "type": "Lnone/afj;"
+    },
+    {
+      "obf": "e",
+      "name": "BOW",
+      "type": "Lnone/afj;"
+    }
+  ],
+  "constructors": [],
+  "method": [],
+  "innerClass": []
+}
