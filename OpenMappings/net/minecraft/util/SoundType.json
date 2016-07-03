@@ -1,0 +1,93 @@
+{
+  "obf": "nk",
+  "name": "net/minecraft/util/SoundType",
+  "field": [
+    {
+      "obf": "a",
+      "name": "MASTER",
+      "type": "Lnone/nk;"
+    },
+    {
+      "obf": "b",
+      "name": "MUSIC",
+      "type": "Lnone/nk;"
+    },
+    {
+      "obf": "c",
+      "name": "RECORD",
+      "type": "Lnone/nk;"
+    },
+    {
+      "obf": "d",
+      "name": "WEATHER",
+      "type": "Lnone/nk;"
+    },
+    {
+      "obf": "e",
+      "name": "BLOCK",
+      "type": "Lnone/nk;"
+    },
+    {
+      "obf": "f",
+      "name": "HOSTILE",
+      "type": "Lnone/nk;"
+    },
+    {
+      "obf": "g",
+      "name": "NEUTRAL",
+      "type": "Lnone/nk;"
+    },
+    {
+      "obf": "h",
+      "name": "PLAYER",
+      "type": "Lnone/nk;"
+    },
+    {
+      "obf": "i",
+      "name": "AMBIENT",
+      "type": "Lnone/nk;"
+    },
+    {
+      "obf": "j",
+      "name": "VOICE",
+      "type": "Lnone/nk;"
+    },
+    {
+      "obf": "k",
+      "name": "STRING_TO_TYPES",
+      "type": "Ljava/util/Map;"
+    },
+    {
+      "obf": "l",
+      "name": "type",
+      "type": "Ljava/lang/String;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getType",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getTypeFromString",
+      "signature": "(Ljava/lang/String;)Lnone/nk;",
+      "args": [
+        {
+          "index": 0,
+          "name": "typeString"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "getTypeStrings",
+      "signature": "()Ljava/util/Set;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}
