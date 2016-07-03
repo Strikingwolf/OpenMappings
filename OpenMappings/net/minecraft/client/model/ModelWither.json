@@ -1,0 +1,21 @@
+{
+  "obf": "bkw",
+  "name": "net/minecraft/client/model/ModelWither",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "setRotationAngles",
+      "signature": "(FFFFFFLnone/rw;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "renderModel",
+      "signature": "(Lnone/rw;FFFFFF)V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

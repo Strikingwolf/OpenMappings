@@ -1,0 +1,27 @@
+{
+  "obf": "biy",
+  "name": "net/minecraft/client/model/ModelArmorStand",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "setRotationAngles",
+      "signature": "(FFFFFFLnone/rw;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "renderArmPost",
+      "signature": "(FLnone/se;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "renderModel",
+      "signature": "(Lnone/rw;FFFFFF)V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}
