@@ -1,0 +1,42 @@
+{
+  "obf": "bub",
+  "name": "net/minecraft/client/render/entity/RenderWither",
+  "field": [
+    {
+      "obf": "a",
+      "name": "TEXTURE_SHIELD",
+      "type": "Lnone/kn;"
+    },
+    {
+      "obf": "b",
+      "name": "TEXTURE",
+      "type": "Lnone/kn;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getTexture",
+      "signature": "(Lnone/xv;)Lnone/kn;",
+      "args": [
+        {
+          "index": 0,
+          "name": "entity"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "preRender",
+      "signature": "(Lnone/xv;F)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "entity"
+        }
+      ]
+    }
+  ],
+  "innerClass": []
+}
