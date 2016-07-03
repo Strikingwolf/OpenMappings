@@ -1,0 +1,43 @@
+{
+  "obf": "arq",
+  "name": "net/minecraft/block/state/BlockBehavior",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onEventRecieved",
+      "signature": "(Lnone/aid;Lnone/cm;II)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "onBlockUpdate",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/akf;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        },
+        {
+          "index": 2,
+          "name": "block"
+        }
+      ]
+    }
+  ],
+  "innerClass": []
+}
