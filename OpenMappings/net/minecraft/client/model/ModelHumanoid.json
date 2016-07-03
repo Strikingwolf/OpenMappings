@@ -1,0 +1,137 @@
+{
+  "obf": "bjp",
+  "name": "net/minecraft/client/model/ModelHumanoid",
+  "field": [
+    {
+      "obf": "e",
+      "name": "head",
+      "type": "Lnone/blf;"
+    },
+    {
+      "obf": "f",
+      "name": "headwear",
+      "type": "Lnone/blf;"
+    },
+    {
+      "obf": "g",
+      "name": "body",
+      "type": "Lnone/blf;"
+    },
+    {
+      "obf": "h",
+      "name": "armRight",
+      "type": "Lnone/blf;"
+    },
+    {
+      "obf": "i",
+      "name": "armLeft",
+      "type": "Lnone/blf;"
+    },
+    {
+      "obf": "j",
+      "name": "legRight",
+      "type": "Lnone/blf;"
+    },
+    {
+      "obf": "k",
+      "name": "legLeft",
+      "type": "Lnone/blf;"
+    },
+    {
+      "obf": "l",
+      "name": "leftArmState",
+      "type": "Lnone/bjp$a;"
+    },
+    {
+      "obf": "m",
+      "name": "rightArmState",
+      "type": "Lnone/bjp$a;"
+    },
+    {
+      "obf": "n",
+      "name": "isSneaking",
+      "type": "Z"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "setRotationAngles",
+      "signature": "(FFFFFFLnone/rw;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "renderArmPost",
+      "signature": "(FLnone/se;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "setModelState",
+      "signature": "(Lnone/bju;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getPreferedHand",
+      "signature": "(Lnone/rw;)Lnone/se;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "renderModel",
+      "signature": "(Lnone/rw;FFFFFF)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getArm",
+      "signature": "(Lnone/se;)Lnone/blf;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "setVisibility",
+      "signature": "(Z)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "showModel"
+        }
+      ]
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "bjp$a",
+      "name": "ArmState",
+      "field": [
+        {
+          "obf": "a",
+          "name": "EMPTY",
+          "type": "Lnone/bjp$a;"
+        },
+        {
+          "obf": "b",
+          "name": "ITEM",
+          "type": "Lnone/bjp$a;"
+        },
+        {
+          "obf": "c",
+          "name": "BLOCK",
+          "type": "Lnone/bjp$a;"
+        },
+        {
+          "obf": "d",
+          "name": "BOW",
+          "type": "Lnone/bjp$a;"
+        }
+      ],
+      "constructors": [],
+      "method": [],
+      "innerClass": []
+    }
+  ]
+}

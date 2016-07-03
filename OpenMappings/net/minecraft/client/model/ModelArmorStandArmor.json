@@ -1,0 +1,15 @@
+{
+  "obf": "bix",
+  "name": "net/minecraft/client/model/ModelArmorStandArmor",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "setRotationAngles",
+      "signature": "(FFFFFFLnone/rw;)V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

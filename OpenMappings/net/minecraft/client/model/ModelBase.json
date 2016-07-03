@@ -1,0 +1,54 @@
+{
+  "obf": "bju",
+  "name": "net/minecraft/client/model/ModelBase",
+  "field": [
+    {
+      "obf": "p",
+      "name": "isRiding",
+      "type": "Z"
+    },
+    {
+      "obf": "q",
+      "name": "isBaby",
+      "type": "Z"
+    },
+    {
+      "obf": "s",
+      "name": "textureWidth",
+      "type": "I"
+    },
+    {
+      "obf": "t",
+      "name": "textureHeight",
+      "type": "I"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "setRotationAngles",
+      "signature": "(FFFFFFLnone/rw;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "setModelState",
+      "signature": "(Lnone/bju;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "copyRotationAngles",
+      "signature": "(Lnone/blf;Lnone/blf;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "renderModel",
+      "signature": "(Lnone/rw;FFFFFF)V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

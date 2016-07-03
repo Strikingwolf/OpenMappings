@@ -1,0 +1,31 @@
+{
+  "obf": "se",
+  "name": "net/minecraft/util/HandSide",
+  "field": [
+    {
+      "obf": "a",
+      "name": "LEFT",
+      "type": "Lnone/se;"
+    },
+    {
+      "obf": "b",
+      "name": "RIGHT",
+      "type": "Lnone/se;"
+    },
+    {
+      "obf": "c",
+      "name": "translation",
+      "type": "Lnone/ey;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getOpposite",
+      "signature": "()Lnone/se;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

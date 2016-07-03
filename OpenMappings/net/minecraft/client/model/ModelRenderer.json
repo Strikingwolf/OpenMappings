@@ -1,0 +1,36 @@
+{
+  "obf": "blf",
+  "name": "net/minecraft/client/model/ModelRenderer",
+  "field": [
+    {
+      "obf": "f",
+      "name": "rotateX",
+      "type": "F"
+    },
+    {
+      "obf": "g",
+      "name": "rotateY",
+      "type": "F"
+    },
+    {
+      "obf": "h",
+      "name": "rotateZ",
+      "type": "F"
+    },
+    {
+      "obf": "j",
+      "name": "isShown",
+      "type": "Z"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "setPointOfRotation",
+      "signature": "(FFF)V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}
