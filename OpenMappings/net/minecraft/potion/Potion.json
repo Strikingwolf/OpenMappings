@@ -13,13 +13,61 @@
       "type": "Z"
     },
     {
+      "obf": "d",
+      "name": "renderColor",
+      "type": "I"
+    },
+    {
       "obf": "e",
       "name": "name",
       "type": "Ljava/lang/String;"
+    },
+    {
+      "obf": "f",
+      "name": "iconIndex",
+      "type": "I"
+    },
+    {
+      "obf": "h",
+      "name": "positive",
+      "type": "Z"
     }
   ],
-  "constructors": [],
+  "constructors": [
+    {
+      "signature": "(ZI)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "isNegative"
+        },
+        {
+          "index": 1,
+          "name": "renderColor"
+        }
+      ],
+      "statics": false
+    }
+  ],
   "method": [
+    {
+      "obf": "a",
+      "name": "getPotionFromNumericID",
+      "signature": "(I)Lnone/rp;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getNumericIDFromPotion",
+      "signature": "(Lnone/rp;)I",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getPotionFromIdentifier",
+      "signature": "(Ljava/lang/String;)Lnone/rp;",
+      "args": []
+    },
     {
       "obf": "k",
       "name": "registerPotions",
