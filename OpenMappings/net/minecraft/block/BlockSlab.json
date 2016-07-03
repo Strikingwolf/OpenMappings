@@ -132,6 +132,12 @@
       ]
     },
     {
+      "obf": "e",
+      "name": "isDoubleSlab",
+      "signature": "()Z",
+      "args": []
+    },
+    {
       "obf": "g",
       "name": "getVariantProperty",
       "signature": "()Lnone/asi;",
