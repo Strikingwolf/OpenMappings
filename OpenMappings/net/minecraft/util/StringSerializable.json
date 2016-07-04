@@ -6,7 +6,6 @@
   "method": [
     {
       "obf": "m",
-      "name": "asString",
       "signature": "()Ljava/lang/String;",
       "args": []
     }

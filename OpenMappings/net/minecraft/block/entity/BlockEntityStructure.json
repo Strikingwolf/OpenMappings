@@ -34,7 +34,13 @@
       "obf": "are$a",
       "field": [],
       "constructors": [],
-      "method": [],
+      "method": [
+        {
+          "obf": "m",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        }
+      ],
       "innerClass": []
     }
   ]

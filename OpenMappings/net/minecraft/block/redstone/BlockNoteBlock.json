@@ -1,0 +1,139 @@
+{
+  "obf": "anr",
+  "name": "net/minecraft/block/redstone/BlockNoteBlock",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "createBlockEntity",
+      "signature": "(Lnone/aid;I)Lnone/aqk;",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "meta"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "onBlockActivated",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Lnone/zs;Lnone/qr;Lnone/adz;Lnone/ct;FFF)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        },
+        {
+          "index": 2,
+          "name": "state"
+        },
+        {
+          "index": 3,
+          "name": "player"
+        },
+        {
+          "index": 4,
+          "name": "hand"
+        },
+        {
+          "index": 5,
+          "name": "stack"
+        },
+        {
+          "index": 6,
+          "name": "side"
+        },
+        {
+          "index": 7,
+          "name": "hitX"
+        },
+        {
+          "index": 8,
+          "name": "hitY"
+        },
+        {
+          "index": 9,
+          "name": "hitZ"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/zs;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        },
+        {
+          "index": 2,
+          "name": "player"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/ars;)Lnone/aop;",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/ars;Lnone/aid;Lnone/cm;II)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        },
+        {
+          "index": 1,
+          "name": "world"
+        },
+        {
+          "index": 2,
+          "name": "pos"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/ars;Lnone/aid;Lnone/cm;Lnone/akf;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        },
+        {
+          "index": 1,
+          "name": "world"
+        },
+        {
+          "index": 2,
+          "name": "pos"
+        },
+        {
+          "index": 3,
+          "name": "block"
+        }
+      ]
+    }
+  ],
+  "innerClass": []
+}

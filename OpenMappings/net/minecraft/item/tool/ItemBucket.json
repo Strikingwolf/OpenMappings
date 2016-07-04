@@ -1,0 +1,15 @@
+{
+  "obf": "acs",
+  "name": "net/minecraft/item/tool/ItemBucket",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onRightClick",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/zs;Lnone/qr;)Lnone/qu;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

@@ -3,6 +3,19 @@
   "name": "net/minecraft/block/BlockClay",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "amountDropped",
+      "signature": "(Ljava/util/Random;)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getItemDropped",
+      "signature": "(Lnone/ars;Ljava/util/Random;I)Lnone/adx;",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

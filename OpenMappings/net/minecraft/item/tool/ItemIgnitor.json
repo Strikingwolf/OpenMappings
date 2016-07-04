@@ -1,0 +1,15 @@
+{
+  "obf": "ads",
+  "name": "net/minecraft/item/tool/ItemIgnitor",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onUse",
+      "signature": "(Lnone/adz;Lnone/zs;Lnone/aid;Lnone/cm;Lnone/qr;Lnone/ct;FFF)Lnone/qt;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

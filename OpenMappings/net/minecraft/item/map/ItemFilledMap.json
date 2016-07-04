@@ -1,0 +1,15 @@
+{
+  "obf": "aef",
+  "name": "net/minecraft/item/map/ItemFilledMap",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "addInfo",
+      "signature": "(Lnone/adz;Lnone/zs;Ljava/util/List;Z)V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

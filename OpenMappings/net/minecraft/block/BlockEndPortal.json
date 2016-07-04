@@ -3,6 +3,61 @@
   "name": "net/minecraft/block/BlockEndPortal",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "amountDropped",
+      "signature": "(Ljava/util/Random;)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getItem",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Lnone/adz;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "onEntityCollision",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Lnone/rw;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "addCollisionBox",
+      "signature": "(Lnone/ars;Lnone/aid;Lnone/cm;Lnone/bby;Ljava/util/List;Lnone/rw;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getBoundingBox",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "shouldRenderSide",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;Lnone/ct;)Z",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "isOpaqueCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "isFullCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "r",
+      "name": "getMapColor",
+      "signature": "(Lnone/ars;)Lnone/axy;",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

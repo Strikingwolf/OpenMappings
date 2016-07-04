@@ -3,6 +3,13 @@
   "name": "net/minecraft/block/BlockBarrier",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "b",
+      "name": "isOpaqueCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

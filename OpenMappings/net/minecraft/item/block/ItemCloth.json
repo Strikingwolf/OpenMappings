@@ -1,0 +1,15 @@
+{
+  "obf": "ade",
+  "name": "net/minecraft/item/block/ItemCloth",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getMeta",
+      "signature": "(I)I",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

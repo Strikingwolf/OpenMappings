@@ -3,6 +3,37 @@
   "name": "net/minecraft/block/BlockSeaLantern",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "amoundDroppedWithBonus",
+      "signature": "(ILjava/util/Random;)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "amountDropped",
+      "signature": "(Ljava/util/Random;)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getItemDropped",
+      "signature": "(Lnone/ars;Ljava/util/Random;I)Lnone/adx;",
+      "args": []
+    },
+    {
+      "obf": "o",
+      "name": "canSilkHarvest",
+      "signature": "()Z",
+      "args": []
+    },
+    {
+      "obf": "r",
+      "name": "getMapColor",
+      "signature": "(Lnone/ars;)Lnone/axy;",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

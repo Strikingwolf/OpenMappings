@@ -1,0 +1,39 @@
+{
+  "obf": "amy",
+  "name": "net/minecraft/block/plant/BlockLeaves",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "amountDropped",
+      "signature": "(Ljava/util/Random;)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getItemDropped",
+      "signature": "(Lnone/ars;Ljava/util/Random;I)Lnone/adx;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "shouldRenderSide",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;Lnone/ct;)Z",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "tick",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Ljava/util/Random;)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "isOpaqueCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

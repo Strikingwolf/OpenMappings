@@ -22,7 +22,7 @@
   "method": [
     {
       "obf": "a",
-      "name": "getState",
+      "name": "stateFromMeta",
       "signature": "(I)Lnone/ars;",
       "args": [
         {
@@ -47,6 +47,7 @@
     },
     {
       "obf": "a",
+      "name": "getItem",
       "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Lnone/adz;",
       "args": [
         {
@@ -193,6 +194,7 @@
     },
     {
       "obf": "a",
+      "name": "getBoundingBox",
       "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
       "args": [
         {
@@ -231,7 +233,7 @@
     },
     {
       "obf": "b",
-      "name": "createStateContainer",
+      "name": "createState",
       "signature": "()Lnone/art;",
       "args": []
     },
@@ -251,6 +253,7 @@
     },
     {
       "obf": "b",
+      "name": "isOpaqueCube",
       "signature": "(Lnone/ars;)Z",
       "args": [
         {
@@ -293,6 +296,7 @@
     },
     {
       "obf": "c",
+      "name": "isFullCube",
       "signature": "(Lnone/ars;)Z",
       "args": [
         {
@@ -303,7 +307,7 @@
     },
     {
       "obf": "e",
-      "name": "getMeta",
+      "name": "metaFromState",
       "signature": "(Lnone/ars;)I",
       "args": [
         {
@@ -348,7 +352,6 @@
       "method": [
         {
           "obf": "m",
-          "name": "asString",
           "signature": "()Ljava/lang/String;",
           "args": []
         }

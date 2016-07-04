@@ -3,6 +3,25 @@
   "name": "net/minecraft/item/ItemWrittenBook",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getStackDisplayName",
+      "signature": "(Lnone/adz;)Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "onRightClick",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/zs;Lnone/qr;)Lnone/qu;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "addInfo",
+      "signature": "(Lnone/adz;Lnone/zs;Ljava/util/List;Z)V",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

@@ -17,7 +17,13 @@
   "method": [
     {
       "obf": "a",
-      "name": "getAmountDropped",
+      "name": "amoundDroppedWithBonus",
+      "signature": "(ILjava/util/Random;)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "amountDropped",
       "signature": "(Ljava/util/Random;)I",
       "args": [
         {
@@ -25,6 +31,12 @@
           "name": "rand"
         }
       ]
+    },
+    {
+      "obf": "a",
+      "name": "getItem",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Lnone/adz;",
+      "args": []
     },
     {
       "obf": "a",
@@ -62,6 +74,12 @@
           "name": "fortune"
         }
       ]
+    },
+    {
+      "obf": "d",
+      "name": "damageDropped",
+      "signature": "(Lnone/ars;)I",
+      "args": []
     }
   ],
   "innerClass": []

@@ -1,0 +1,15 @@
+{
+  "obf": "acr",
+  "name": "net/minecraft/item/food/ItemSoup",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onUseFinish",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/sf;)Lnone/adz;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

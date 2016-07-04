@@ -6,31 +6,37 @@
   "method": [
     {
       "obf": "a",
-      "name": "getState",
+      "name": "stateFromMeta",
       "signature": "(I)Lnone/ars;",
       "args": []
     },
     {
       "obf": "a",
-      "name": "addSubItems",
+      "name": "getSubBlocks",
       "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
       "args": []
     },
     {
       "obf": "b",
-      "name": "createStateContainer",
+      "name": "createState",
       "signature": "()Lnone/art;",
       "args": []
     },
     {
+      "obf": "d",
+      "name": "damageDropped",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    },
+    {
       "obf": "e",
-      "name": "getMeta",
+      "name": "metaFromState",
       "signature": "(Lnone/ars;)I",
       "args": []
     },
     {
       "obf": "r",
-      "name": "getColor",
+      "name": "getMapColor",
       "signature": "(Lnone/ars;)Lnone/axy;",
       "args": []
     }
@@ -129,7 +135,6 @@
         },
         {
           "obf": "m",
-          "name": "asString",
           "signature": "()Ljava/lang/String;",
           "args": []
         },

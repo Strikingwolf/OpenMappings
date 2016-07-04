@@ -1,0 +1,26 @@
+{
+  "obf": "aei",
+  "name": "net/minecraft/item/block/ItemMultiTexture",
+  "field": [
+    {
+      "obf": "b",
+      "name": "block",
+      "type": "Lnone/akf;"
+    },
+    {
+      "obf": "c",
+      "name": "nameFunc",
+      "type": "Lcom/google/common/base/Function;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getMeta",
+      "signature": "(I)I",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

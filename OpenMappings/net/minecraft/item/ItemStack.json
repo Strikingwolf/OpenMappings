@@ -11,6 +11,12 @@
   "constructors": [],
   "method": [
     {
+      "obf": "i",
+      "name": "getMetadata",
+      "signature": "()I",
+      "args": []
+    },
+    {
       "obf": "n",
       "name": "hasTag",
       "signature": "()Z",

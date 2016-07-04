@@ -1,0 +1,95 @@
+{
+  "obf": "apr",
+  "name": "net/minecraft/block/plant/BlockTallGrass",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "stateFromMeta",
+      "signature": "(I)Lnone/ars;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "amoundDroppedWithBonus",
+      "signature": "(ILjava/util/Random;)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getSubBlocks",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "canBonemeal",
+      "signature": "(Lnone/aid;Ljava/util/Random;Lnone/cm;Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getItem",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Lnone/adz;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "canGrow",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Z)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getItemDropped",
+      "signature": "(Lnone/ars;Ljava/util/Random;I)Lnone/adx;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getBoundingBox",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "createState",
+      "signature": "()Lnone/art;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "grow",
+      "signature": "(Lnone/aid;Ljava/util/Random;Lnone/cm;Lnone/ars;)V",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "metaFromState",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    },
+    {
+      "obf": "f",
+      "name": "canBlockStay",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Z",
+      "args": []
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "apr$a",
+      "field": [],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "m",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}

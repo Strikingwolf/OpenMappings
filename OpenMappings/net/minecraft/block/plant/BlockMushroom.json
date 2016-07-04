@@ -1,0 +1,69 @@
+{
+  "obf": "ani",
+  "name": "net/minecraft/block/plant/BlockMushroom",
+  "field": [
+    {
+      "obf": "a",
+      "name": "box",
+      "type": "Lnone/bby;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "canBonemeal",
+      "signature": "(Lnone/aid;Ljava/util/Random;Lnone/cm;Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "canPlaceBlockAt",
+      "signature": "(Lnone/aid;Lnone/cm;)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "canGrow",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Z)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getBoundingBox",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "grow",
+      "signature": "(Lnone/aid;Ljava/util/Random;Lnone/cm;Lnone/ars;)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "tick",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Ljava/util/Random;)V",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "makeBigMushroom",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Ljava/util/Random;)Z",
+      "args": []
+    },
+    {
+      "obf": "f",
+      "name": "canBlockStay",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "i",
+      "name": "canHavePlant",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

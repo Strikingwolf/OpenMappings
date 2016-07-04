@@ -1,0 +1,195 @@
+{
+  "obf": "alj",
+  "name": "net/minecraft/block/plant/BlockDoublePlant",
+  "field": [
+    {
+      "obf": "a",
+      "name": "TYPE",
+      "type": "Lnone/asg;"
+    },
+    {
+      "obf": "c",
+      "name": "HALF",
+      "type": "Lnone/asg;"
+    },
+    {
+      "obf": "d",
+      "name": "FACING",
+      "type": "Lnone/asg;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "stateFromMeta",
+      "signature": "(I)Lnone/ars;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getSubBlocks",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "canBonemeal",
+      "signature": "(Lnone/aid;Ljava/util/Random;Lnone/cm;Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "canPlaceBlockAt",
+      "signature": "(Lnone/aid;Lnone/cm;)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getItem",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Lnone/adz;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "canGrow",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Z)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getItemDropped",
+      "signature": "(Lnone/ars;Ljava/util/Random;I)Lnone/adx;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getBoundingBox",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "createState",
+      "signature": "()Lnone/art;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "grow",
+      "signature": "(Lnone/aid;Ljava/util/Random;Lnone/cm;Lnone/ars;)V",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "damageDropped",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "metaFromState",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    },
+    {
+      "obf": "f",
+      "name": "canBlockStay",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Z",
+      "args": []
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "alj$a",
+      "name": "FlowerHalf",
+      "field": [
+        {
+          "obf": "a",
+          "name": "UPPER",
+          "type": "Lnone/alj$a;"
+        },
+        {
+          "obf": "b",
+          "name": "LOWER",
+          "type": "Lnone/alj$a;"
+        }
+      ],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "m",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    },
+    {
+      "obf": "alj$b",
+      "name": "FlowerType",
+      "field": [
+        {
+          "obf": "a",
+          "name": "SUNFLOWER",
+          "type": "Lnone/alj$b;"
+        },
+        {
+          "obf": "b",
+          "name": "SYRINGA",
+          "type": "Lnone/alj$b;"
+        },
+        {
+          "obf": "c",
+          "name": "GRASS",
+          "type": "Lnone/alj$b;"
+        },
+        {
+          "obf": "d",
+          "name": "FERN",
+          "type": "Lnone/alj$b;"
+        },
+        {
+          "obf": "e",
+          "name": "ROSE",
+          "type": "Lnone/alj$b;"
+        },
+        {
+          "obf": "f",
+          "name": "PAEONIA",
+          "type": "Lnone/alj$b;"
+        },
+        {
+          "obf": "g",
+          "name": "VALUES",
+          "type": "[Lnone/alj$b;"
+        },
+        {
+          "obf": "i",
+          "name": "name",
+          "type": "Ljava/lang/String;"
+        }
+      ],
+      "constructors": [
+        {
+          "signature": "(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V",
+          "args": [
+            {
+              "index": 4,
+              "name": "name"
+            }
+          ],
+          "statics": false
+        }
+      ],
+      "method": [
+        {
+          "obf": "m",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}

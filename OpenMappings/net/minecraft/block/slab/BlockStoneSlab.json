@@ -1,0 +1,272 @@
+{
+  "obf": "apo",
+  "name": "net/minecraft/block/slab/BlockStoneSlab",
+  "field": [
+    {
+      "obf": "d",
+      "name": "SEAMLESS",
+      "type": "Lnone/ase;"
+    },
+    {
+      "obf": "e",
+      "name": "VARIANT",
+      "type": "Lnone/asg;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "stateFromMeta",
+      "signature": "(I)Lnone/ars;",
+      "args": [
+        {
+          "index": 0,
+          "name": "meta"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getSubBlocks",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "item"
+        },
+        {
+          "index": 1,
+          "name": "tab"
+        },
+        {
+          "index": 2,
+          "name": "list"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "typeFromItem",
+      "signature": "(Lnone/adz;)Ljava/lang/Comparable;",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getItem",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Lnone/adz;",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        },
+        {
+          "index": 2,
+          "name": "state"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getItemDropped",
+      "signature": "(Lnone/ars;Ljava/util/Random;I)Lnone/adx;",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        },
+        {
+          "index": 1,
+          "name": "rand"
+        },
+        {
+          "index": 2,
+          "name": "fortune"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "createState",
+      "signature": "()Lnone/art;",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "damageDropped",
+      "signature": "(Lnone/ars;)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        }
+      ]
+    },
+    {
+      "obf": "e",
+      "name": "getUnlocalizedName",
+      "signature": "(I)Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "metaFromState",
+      "signature": "(Lnone/ars;)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        }
+      ]
+    },
+    {
+      "obf": "g",
+      "name": "getVariantProperty",
+      "signature": "()Lnone/asi;",
+      "args": []
+    },
+    {
+      "obf": "r",
+      "name": "getMapColor",
+      "signature": "(Lnone/ars;)Lnone/axy;",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        }
+      ]
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "apo$a",
+      "name": "Variant",
+      "field": [
+        {
+          "obf": "a",
+          "name": "STONE",
+          "type": "Lnone/apo$a;"
+        },
+        {
+          "obf": "b",
+          "name": "SANDSTONE",
+          "type": "Lnone/apo$a;"
+        },
+        {
+          "obf": "c",
+          "name": "WOOD",
+          "type": "Lnone/apo$a;"
+        },
+        {
+          "obf": "d",
+          "name": "COBBLESTONE",
+          "type": "Lnone/apo$a;"
+        },
+        {
+          "obf": "e",
+          "name": "BRICK",
+          "type": "Lnone/apo$a;"
+        },
+        {
+          "obf": "f",
+          "name": "STONE_BRICK",
+          "type": "Lnone/apo$a;"
+        },
+        {
+          "obf": "g",
+          "name": "NETHER_BRICK",
+          "type": "Lnone/apo$a;"
+        },
+        {
+          "obf": "h",
+          "name": "QUARTZ",
+          "type": "Lnone/apo$a;"
+        },
+        {
+          "obf": "i",
+          "name": "VALUES",
+          "type": "[Lnone/apo$a;"
+        },
+        {
+          "obf": "j",
+          "name": "meta",
+          "type": "I"
+        },
+        {
+          "obf": "k",
+          "name": "color",
+          "type": "Lnone/axy;"
+        },
+        {
+          "obf": "l",
+          "name": "name",
+          "type": "Ljava/lang/String;"
+        },
+        {
+          "obf": "m",
+          "name": "secondaryName",
+          "type": "Ljava/lang/String;"
+        }
+      ],
+      "constructors": [
+        {
+          "signature": "(Ljava/lang/String;IILnone/axy;Ljava/lang/String;)V",
+          "args": [],
+          "statics": false
+        }
+      ],
+      "method": [
+        {
+          "obf": "a",
+          "name": "getMeta",
+          "signature": "()I",
+          "args": []
+        },
+        {
+          "obf": "a",
+          "name": "getVariant",
+          "signature": "(I)Lnone/apo$a;",
+          "args": [
+            {
+              "index": 0,
+              "name": "meta"
+            }
+          ]
+        },
+        {
+          "obf": "c",
+          "name": "getColor",
+          "signature": "()Lnone/axy;",
+          "args": []
+        },
+        {
+          "obf": "d",
+          "name": "getSecondaryName",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        },
+        {
+          "obf": "m",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        },
+        {
+          "obf": "values",
+          "name": "values",
+          "signature": "()[Lnone/apo$a;",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}

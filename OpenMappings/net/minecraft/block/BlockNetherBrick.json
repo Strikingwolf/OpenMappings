@@ -3,6 +3,13 @@
   "name": "net/minecraft/block/BlockNetherBrick",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "r",
+      "name": "getMapColor",
+      "signature": "(Lnone/ars;)Lnone/axy;",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

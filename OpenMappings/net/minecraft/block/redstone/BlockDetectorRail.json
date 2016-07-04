@@ -1,0 +1,39 @@
+{
+  "obf": "ald",
+  "name": "net/minecraft/block/redstone/BlockDetectorRail",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "stateFromMeta",
+      "signature": "(I)Lnone/ars;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "onEntityCollision",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Lnone/rw;)V",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "createState",
+      "signature": "()Lnone/art;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "tick",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Ljava/util/Random;)V",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "metaFromState",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

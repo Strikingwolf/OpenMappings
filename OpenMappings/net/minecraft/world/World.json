@@ -98,6 +98,12 @@
       "args": []
     },
     {
+      "obf": "a",
+      "name": "setState",
+      "signature": "(Lnone/cm;Lnone/ars;I)Z",
+      "args": []
+    },
+    {
       "obf": "b",
       "name": "getBiome",
       "signature": "(Lnone/cm;)Lnone/aiq;",
@@ -107,6 +113,18 @@
           "name": "pos"
         }
       ]
+    },
+    {
+      "obf": "b",
+      "name": "destroyBlock",
+      "signature": "(Lnone/cm;Z)Z",
+      "args": []
+    },
+    {
+      "obf": "g",
+      "name": "setToAir",
+      "signature": "(Lnone/cm;)Z",
+      "args": []
     },
     {
       "obf": "o",

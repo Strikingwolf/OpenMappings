@@ -3,6 +3,81 @@
   "name": "net/minecraft/block/BlockCobblestoneWall",
   "field": [],
   "constructors": [],
-  "method": [],
-  "innerClass": []
+  "method": [
+    {
+      "obf": "a",
+      "name": "stateFromMeta",
+      "signature": "(I)Lnone/ars;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getSubBlocks",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getBoundingBox",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "shouldRenderSide",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;Lnone/ct;)Z",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "createState",
+      "signature": "()Lnone/art;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "isOpaqueCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getLocalizedName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "isFullCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "damageDropped",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "metaFromState",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "apz$a",
+      "field": [],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "m",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
 }

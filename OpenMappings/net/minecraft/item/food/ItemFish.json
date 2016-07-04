@@ -1,0 +1,169 @@
+{
+  "obf": "adq",
+  "name": "net/minecraft/item/food/ItemFish",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getSubItems",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "item"
+        },
+        {
+          "index": 1,
+          "name": "tab"
+        },
+        {
+          "index": 2,
+          "name": "list"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/zs;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        },
+        {
+          "index": 1,
+          "name": "world"
+        },
+        {
+          "index": 2,
+          "name": "player"
+        }
+      ]
+    },
+    {
+      "obf": "f_",
+      "name": "getUnlocalizedName",
+      "signature": "(Lnone/adz;)Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "h",
+      "signature": "(Lnone/adz;)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "i",
+      "signature": "(Lnone/adz;)F",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "adq$a",
+      "name": "Type",
+      "field": [
+        {
+          "obf": "a",
+          "name": "COD",
+          "type": "Lnone/adq$a;"
+        },
+        {
+          "obf": "b",
+          "name": "SALMON",
+          "type": "Lnone/adq$a;"
+        },
+        {
+          "obf": "c",
+          "name": "CLOWNFISH",
+          "type": "Lnone/adq$a;"
+        },
+        {
+          "obf": "d",
+          "name": "PUFFERFISH",
+          "type": "Lnone/adq$a;"
+        },
+        {
+          "obf": "e",
+          "name": "VALUES",
+          "type": "Ljava/util/Map;"
+        },
+        {
+          "obf": "f",
+          "name": "meta",
+          "type": "I"
+        },
+        {
+          "obf": "g",
+          "name": "name",
+          "type": "Ljava/lang/String;"
+        }
+      ],
+      "constructors": [
+        {
+          "signature": "(Ljava/lang/String;IILjava/lang/String;IF)V",
+          "args": [],
+          "statics": false
+        },
+        {
+          "signature": "(Ljava/lang/String;IILjava/lang/String;IFIF)V",
+          "args": [],
+          "statics": false
+        }
+      ],
+      "method": [
+        {
+          "obf": "a",
+          "name": "getMeta",
+          "signature": "()I",
+          "args": []
+        },
+        {
+          "obf": "a",
+          "name": "getType",
+          "signature": "(I)Lnone/adq$a;",
+          "args": [
+            {
+              "index": 0,
+              "name": "meta"
+            }
+          ]
+        },
+        {
+          "obf": "a",
+          "name": "getType",
+          "signature": "(Lnone/adz;)Lnone/adq$a;",
+          "args": [
+            {
+              "index": 0,
+              "name": "stack"
+            }
+          ]
+        },
+        {
+          "obf": "b",
+          "name": "getName",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        },
+        {
+          "obf": "values",
+          "name": "values",
+          "signature": "()[Lnone/adq$a;",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}

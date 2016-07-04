@@ -1,0 +1,39 @@
+{
+  "obf": "aok",
+  "name": "net/minecraft/block/redstone/BlockRedstoneOre",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "amoundDroppedWithBonus",
+      "signature": "(ILjava/util/Random;)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "amountDropped",
+      "signature": "(Ljava/util/Random;)I",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getItem",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Lnone/adz;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getItemDropped",
+      "signature": "(Lnone/ars;Ljava/util/Random;I)Lnone/adx;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "tick",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Ljava/util/Random;)V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

@@ -33,6 +33,26 @@
       "type": "Lnone/cr;"
     },
     {
+      "obf": "i",
+      "name": "BLOCK_STATE_IDS",
+      "type": "Lnone/cw;"
+    },
+    {
+      "obf": "j",
+      "name": "FULL_BLOCK",
+      "type": "Lnone/bby;"
+    },
+    {
+      "obf": "k",
+      "name": "NULL_BOX",
+      "type": "Lnone/bby;"
+    },
+    {
+      "obf": "l",
+      "name": "fullBlock",
+      "type": "Z"
+    },
+    {
       "obf": "o",
       "name": "lightLevel",
       "type": "I"
@@ -84,7 +104,7 @@
     },
     {
       "obf": "a",
-      "name": "getState",
+      "name": "stateFromMeta",
       "signature": "(I)Lnone/ars;",
       "args": [
         {
@@ -114,6 +134,7 @@
     },
     {
       "obf": "a",
+      "name": "amoundDroppedWithBonus",
       "signature": "(ILjava/util/Random;)I",
       "args": [
         {
@@ -143,7 +164,7 @@
     },
     {
       "obf": "a",
-      "name": "getAmountDropped",
+      "name": "amountDropped",
       "signature": "(Ljava/util/Random;)I",
       "args": []
     },
@@ -171,7 +192,7 @@
     },
     {
       "obf": "a",
-      "name": "addSubItems",
+      "name": "getSubBlocks",
       "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
       "args": [
         {
@@ -190,6 +211,13 @@
     },
     {
       "obf": "a",
+      "name": "canPlaceBlockAt",
+      "signature": "(Lnone/aid;Lnone/cm;)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getItem",
       "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Lnone/adz;",
       "args": [
         {
@@ -205,6 +233,12 @@
           "name": "state"
         }
       ]
+    },
+    {
+      "obf": "a",
+      "name": "onEntityCollision",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Lnone/rw;)V",
+      "args": []
     },
     {
       "obf": "a",
@@ -254,6 +288,12 @@
       "obf": "a",
       "name": "onBlockActivated",
       "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Lnone/zs;Lnone/qr;Lnone/adz;Lnone/ct;FFF)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "onBlockPlaced",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ct;FFFILnone/sf;)Lnone/ars;",
       "args": []
     },
     {
@@ -349,8 +389,38 @@
       ]
     },
     {
+      "obf": "a",
+      "name": "addCollisionBox",
+      "signature": "(Lnone/ars;Lnone/aid;Lnone/cm;Lnone/bby;Ljava/util/List;Lnone/rw;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getBoundingBox",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "shouldRenderSide",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;Lnone/ct;)Z",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "addCollisionBox",
+      "signature": "(Lnone/cm;Lnone/bby;Ljava/util/List;Lnone/bby;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "tickRandomly",
+      "signature": "(Z)Lnone/akf;",
+      "args": []
+    },
+    {
       "obf": "b",
-      "name": "createStateContainer",
+      "name": "createState",
       "signature": "()Lnone/art;",
       "args": []
     },
@@ -373,7 +443,7 @@
     },
     {
       "obf": "b",
-      "name": "randomTick",
+      "name": "tick",
       "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Ljava/util/Random;)V",
       "args": []
     },
@@ -386,6 +456,18 @@
           "name": "block"
         }
       ]
+    },
+    {
+      "obf": "b",
+      "name": "isOpaqueCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getLocalizedName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
     },
     {
       "obf": "c",
@@ -410,6 +492,24 @@
       ]
     },
     {
+      "obf": "c",
+      "name": "isFullCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "setOpacity",
+      "signature": "(I)Lnone/akf;",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "damageDropped",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    },
+    {
       "obf": "d",
       "signature": "(Lnone/ars;Lnone/aid;Lnone/cm;)I",
       "args": [
@@ -429,7 +529,7 @@
     },
     {
       "obf": "e",
-      "name": "getMeta",
+      "name": "metaFromState",
       "signature": "(Lnone/ars;)I",
       "args": [
         {
@@ -479,6 +579,18 @@
       "args": []
     },
     {
+      "obf": "k",
+      "name": "isFullyOpaque",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "o",
+      "name": "canSilkHarvest",
+      "signature": "()Z",
+      "args": []
+    },
+    {
       "obf": "q",
       "name": "getMaterial",
       "signature": "(Lnone/ars;)Lnone/axx;",
@@ -497,7 +609,7 @@
     },
     {
       "obf": "r",
-      "name": "getColor",
+      "name": "getMapColor",
       "signature": "(Lnone/ars;)Lnone/axy;",
       "args": [
         {

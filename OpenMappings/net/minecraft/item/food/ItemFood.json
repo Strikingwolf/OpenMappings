@@ -1,0 +1,105 @@
+{
+  "obf": "adt",
+  "name": "net/minecraft/item/food/ItemFood",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onUseFinish",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/sf;)Lnone/adz;",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        },
+        {
+          "index": 1,
+          "name": "world"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/zs;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        },
+        {
+          "index": 1,
+          "name": "world"
+        },
+        {
+          "index": 2,
+          "name": "player"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "onRightClick",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/zs;Lnone/qr;)Lnone/qu;",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        },
+        {
+          "index": 1,
+          "name": "world"
+        },
+        {
+          "index": 2,
+          "name": "player"
+        },
+        {
+          "index": 3,
+          "name": "hand"
+        }
+      ]
+    },
+    {
+      "obf": "e",
+      "signature": "(Lnone/adz;)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "f",
+      "signature": "(Lnone/adz;)Lnone/afj;",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "h",
+      "signature": "(Lnone/adz;)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "i",
+      "signature": "(Lnone/adz;)F",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    }
+  ],
+  "innerClass": []
+}

@@ -1,0 +1,66 @@
+{
+  "obf": "bbz",
+  "name": "net/minecraft/util/math/RayTraceResult",
+  "field": [
+    {
+      "obf": "a",
+      "name": "type",
+      "type": "Lnone/bbz$a;"
+    },
+    {
+      "obf": "b",
+      "name": "side",
+      "type": "Lnone/ct;"
+    },
+    {
+      "obf": "c",
+      "name": "vec",
+      "type": "Lnone/bcb;"
+    },
+    {
+      "obf": "d",
+      "name": "entity",
+      "type": "Lnone/rw;"
+    },
+    {
+      "obf": "e",
+      "name": "pos",
+      "type": "Lnone/cm;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getPos",
+      "signature": "()Lnone/cm;",
+      "args": []
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "bbz$a",
+      "name": "Type",
+      "field": [
+        {
+          "obf": "a",
+          "name": "MISS",
+          "type": "Lnone/bbz$a;"
+        },
+        {
+          "obf": "b",
+          "name": "BLOCK",
+          "type": "Lnone/bbz$a;"
+        },
+        {
+          "obf": "c",
+          "name": "ENTITY",
+          "type": "Lnone/bbz$a;"
+        }
+      ],
+      "constructors": [],
+      "method": [],
+      "innerClass": []
+    }
+  ]
+}

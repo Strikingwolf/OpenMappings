@@ -1,0 +1,27 @@
+{
+  "obf": "aob",
+  "name": "net/minecraft/block/redstone/BlockGoldenRail",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "stateFromMeta",
+      "signature": "(I)Lnone/ars;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "createState",
+      "signature": "()Lnone/art;",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "metaFromState",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

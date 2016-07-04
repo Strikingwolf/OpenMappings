@@ -3,6 +3,49 @@
   "name": "net/minecraft/block/BlockFence",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "addCollisionBox",
+      "signature": "(Lnone/ars;Lnone/aid;Lnone/cm;Lnone/bby;Ljava/util/List;Lnone/rw;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getBoundingBox",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "shouldRenderSide",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;Lnone/ct;)Z",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "createState",
+      "signature": "()Lnone/art;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "isOpaqueCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "isFullCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "metaFromState",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

@@ -1,0 +1,14 @@
+{
+  "obf": "anb",
+  "name": "net/minecraft/block/BlockLiquid",
+  "field": [
+    {
+      "obf": "b",
+      "name": "LEVEL",
+      "type": "Lnone/ash;"
+    }
+  ],
+  "constructors": [],
+  "method": [],
+  "innerClass": []
+}

@@ -1,0 +1,34 @@
+{
+  "obf": "ada",
+  "name": "net/minecraft/item/tool/ItemTool",
+  "field": [
+    {
+      "obf": "d",
+      "name": "type",
+      "type": "Lnone/adx$a;"
+    },
+    {
+      "obf": "e",
+      "name": "validBlocks",
+      "type": "Ljava/util/Set;"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(FFLnone/adx$a;Ljava/util/Set;)V",
+      "args": [
+        {
+          "index": 2,
+          "name": "type"
+        },
+        {
+          "index": 3,
+          "name": "validBlocks"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [],
+  "innerClass": []
+}

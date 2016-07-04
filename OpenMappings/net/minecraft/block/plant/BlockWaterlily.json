@@ -1,0 +1,51 @@
+{
+  "obf": "aqb",
+  "name": "net/minecraft/block/plant/BlockWaterlily",
+  "field": [
+    {
+      "obf": "a",
+      "name": "box",
+      "type": "Lnone/bby;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onEntityCollision",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Lnone/rw;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "addCollisionBox",
+      "signature": "(Lnone/ars;Lnone/aid;Lnone/cm;Lnone/bby;Ljava/util/List;Lnone/rw;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getBoundingBox",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "metaFromState",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    },
+    {
+      "obf": "f",
+      "name": "canBlockStay",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "i",
+      "name": "canHavePlant",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

@@ -1,0 +1,15 @@
+{
+  "obf": "acu",
+  "name": "net/minecraft/item/food/ItemChorusFruit",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onUseFinish",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/sf;)Lnone/adz;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

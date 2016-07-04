@@ -1,0 +1,15 @@
+{
+  "obf": "aml",
+  "name": "net/minecraft/block/slab/BlockHalfStoneSlabNew",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "e",
+      "name": "isDouble",
+      "signature": "()Z",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

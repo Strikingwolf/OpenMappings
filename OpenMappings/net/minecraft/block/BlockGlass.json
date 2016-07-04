@@ -17,7 +17,7 @@
   "method": [
     {
       "obf": "a",
-      "name": "getAmountDropped",
+      "name": "amountDropped",
       "signature": "(Ljava/util/Random;)I",
       "args": [
         {
@@ -28,6 +28,7 @@
     },
     {
       "obf": "c",
+      "name": "isFullCube",
       "signature": "(Lnone/ars;)Z",
       "args": [
         {
@@ -35,6 +36,12 @@
           "name": "rand"
         }
       ]
+    },
+    {
+      "obf": "o",
+      "name": "canSilkHarvest",
+      "signature": "()Z",
+      "args": []
     }
   ],
   "innerClass": []

@@ -1,0 +1,15 @@
+{
+  "obf": "adu",
+  "name": "net/minecraft/item/food/ItemGoldenApple",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getSubItems",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

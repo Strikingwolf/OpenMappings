@@ -17,7 +17,7 @@
   "method": [
     {
       "obf": "a",
-      "name": "getState",
+      "name": "stateFromMeta",
       "signature": "(I)Lnone/ars;",
       "args": [
         {
@@ -28,6 +28,7 @@
     },
     {
       "obf": "a",
+      "name": "onBlockPlaced",
       "signature": "(Lnone/aid;Lnone/cm;Lnone/ct;FFFILnone/sf;)Lnone/ars;",
       "args": [
         {
@@ -65,6 +66,7 @@
     },
     {
       "obf": "a",
+      "name": "addCollisionBox",
       "signature": "(Lnone/ars;Lnone/aid;Lnone/cm;Lnone/bby;Ljava/util/List;Lnone/rw;)V",
       "args": [
         {
@@ -95,6 +97,7 @@
     },
     {
       "obf": "a",
+      "name": "getBoundingBox",
       "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
       "args": [
         {
@@ -133,12 +136,13 @@
     },
     {
       "obf": "b",
-      "name": "createStateContainer",
+      "name": "createState",
       "signature": "()Lnone/art;",
       "args": []
     },
     {
       "obf": "b",
+      "name": "isOpaqueCube",
       "signature": "(Lnone/ars;)Z",
       "args": [
         {
@@ -149,6 +153,7 @@
     },
     {
       "obf": "c",
+      "name": "isFullCube",
       "signature": "(Lnone/ars;)Z",
       "args": [
         {
@@ -177,7 +182,7 @@
     },
     {
       "obf": "e",
-      "name": "getMeta",
+      "name": "metaFromState",
       "signature": "(Lnone/ars;)I",
       "args": [
         {

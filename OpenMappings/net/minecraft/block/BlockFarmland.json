@@ -17,7 +17,7 @@
   "method": [
     {
       "obf": "a",
-      "name": "getState",
+      "name": "stateFromMeta",
       "signature": "(I)Lnone/ars;",
       "args": [
         {
@@ -28,6 +28,7 @@
     },
     {
       "obf": "a",
+      "name": "getItem",
       "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Lnone/adz;",
       "args": [
         {
@@ -105,6 +106,7 @@
     },
     {
       "obf": "a",
+      "name": "getBoundingBox",
       "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
       "args": [
         {
@@ -123,6 +125,7 @@
     },
     {
       "obf": "a",
+      "name": "shouldRenderSide",
       "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;Lnone/ct;)Z",
       "args": [
         {
@@ -145,7 +148,7 @@
     },
     {
       "obf": "b",
-      "name": "createStateContainer",
+      "name": "createState",
       "signature": "()Lnone/art;",
       "args": []
     },
@@ -165,7 +168,7 @@
     },
     {
       "obf": "b",
-      "name": "randomTick",
+      "name": "tick",
       "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Ljava/util/Random;)V",
       "args": [
         {
@@ -188,6 +191,7 @@
     },
     {
       "obf": "b",
+      "name": "isOpaqueCube",
       "signature": "(Lnone/ars;)Z",
       "args": [
         {
@@ -212,6 +216,7 @@
     },
     {
       "obf": "c",
+      "name": "isFullCube",
       "signature": "(Lnone/ars;)Z",
       "args": [
         {
@@ -222,7 +227,7 @@
     },
     {
       "obf": "e",
-      "name": "getMeta",
+      "name": "metaFromState",
       "signature": "(Lnone/ars;)I",
       "args": [
         {

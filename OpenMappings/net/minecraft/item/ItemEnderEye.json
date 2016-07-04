@@ -3,6 +3,19 @@
   "name": "net/minecraft/item/ItemEnderEye",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onRightClick",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/zs;Lnone/qr;)Lnone/qu;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "onUse",
+      "signature": "(Lnone/adz;Lnone/zs;Lnone/aid;Lnone/cm;Lnone/qr;Lnone/ct;FFF)Lnone/qt;",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

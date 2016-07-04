@@ -3,6 +3,31 @@
   "name": "net/minecraft/block/BlockPurpurPillar",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "stateFromMeta",
+      "signature": "(I)Lnone/ars;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "onBlockPlaced",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ct;FFFILnone/sf;)Lnone/ars;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "createState",
+      "signature": "()Lnone/art;",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "metaFromState",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

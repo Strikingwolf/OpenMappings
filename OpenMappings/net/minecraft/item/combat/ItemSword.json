@@ -1,0 +1,50 @@
+{
+  "obf": "afg",
+  "name": "net/minecraft/item/combat/ItemSword",
+  "field": [
+    {
+      "obf": "b",
+      "name": "type",
+      "type": "Lnone/adx$a;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "signature": "(Lnone/adz;Lnone/ars;)F",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        },
+        {
+          "index": 1,
+          "name": "state"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/adz;Lnone/sf;Lnone/sf;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "isToolEffective",
+      "signature": "(Lnone/ars;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        }
+      ]
+    }
+  ],
+  "innerClass": []
+}

@@ -1,0 +1,208 @@
+{
+  "obf": "anp",
+  "name": "net/minecraft/block/slab/BlockStoneSlabNew",
+  "field": [
+    {
+      "obf": "d",
+      "name": "SEAMLESS",
+      "type": "Lnone/ase;"
+    },
+    {
+      "obf": "e",
+      "name": "VARIANT",
+      "type": "Lnone/asg;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "stateFromMeta",
+      "signature": "(I)Lnone/ars;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getSubBlocks",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "typeFromItem",
+      "signature": "(Lnone/adz;)Ljava/lang/Comparable;",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getItem",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Lnone/adz;",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        },
+        {
+          "index": 2,
+          "name": "state"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getItemDropped",
+      "signature": "(Lnone/ars;Ljava/util/Random;I)Lnone/adx;",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        },
+        {
+          "index": 1,
+          "name": "rand"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "createState",
+      "signature": "()Lnone/art;",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getLocalizedName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "damageDropped",
+      "signature": "(Lnone/ars;)I",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "getUnlocalizedName",
+      "signature": "(I)Ljava/lang/String;",
+      "args": [
+        {
+          "index": 0,
+          "name": "meta"
+        }
+      ]
+    },
+    {
+      "obf": "e",
+      "name": "metaFromState",
+      "signature": "(Lnone/ars;)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        }
+      ]
+    },
+    {
+      "obf": "r",
+      "name": "getMapColor",
+      "signature": "(Lnone/ars;)Lnone/axy;",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        }
+      ]
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "anp$a",
+      "name": "Type",
+      "field": [
+        {
+          "obf": "a",
+          "name": "RED_SANDSTONE",
+          "type": "Lnone/anp$a;"
+        },
+        {
+          "obf": "b",
+          "name": "META_LOOKUP",
+          "type": "[Lnone/anp$a;"
+        },
+        {
+          "obf": "c",
+          "name": "meta",
+          "type": "I"
+        },
+        {
+          "obf": "d",
+          "name": "name",
+          "type": "Ljava/lang/String;"
+        },
+        {
+          "obf": "e",
+          "name": "mapcolor",
+          "type": "Lnone/axy;"
+        }
+      ],
+      "constructors": [
+        {
+          "signature": "(Ljava/lang/String;IILjava/lang/String;Lnone/axy;)V",
+          "args": [
+            {
+              "index": 3,
+              "name": "meta"
+            },
+            {
+              "index": 4,
+              "name": "name"
+            }
+          ],
+          "statics": false
+        }
+      ],
+      "method": [
+        {
+          "obf": "a",
+          "name": "meta",
+          "signature": "()I",
+          "args": []
+        },
+        {
+          "obf": "a",
+          "name": "byMetadata",
+          "signature": "(I)Lnone/anp$a;",
+          "args": []
+        },
+        {
+          "obf": "c",
+          "name": "mapColor",
+          "signature": "()Lnone/axy;",
+          "args": []
+        },
+        {
+          "obf": "d",
+          "name": "getUnlocalizedName",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        },
+        {
+          "obf": "m",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}

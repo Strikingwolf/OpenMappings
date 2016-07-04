@@ -1,0 +1,150 @@
+{
+  "obf": "aof",
+  "name": "net/minecraft/block/slab/BlockPurpurSlab",
+  "field": [
+    {
+      "obf": "d",
+      "name": "VARIANT",
+      "type": "Lnone/asg;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "stateFromMeta",
+      "signature": "(I)Lnone/ars;",
+      "args": [
+        {
+          "index": 0,
+          "name": "meta"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "typeFromItem",
+      "signature": "(Lnone/adz;)Ljava/lang/Comparable;",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getItem",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;)Lnone/adz;",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        },
+        {
+          "index": 2,
+          "name": "state"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getItemDropped",
+      "signature": "(Lnone/ars;Ljava/util/Random;I)Lnone/adx;",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        },
+        {
+          "index": 1,
+          "name": "rand"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "createState",
+      "signature": "()Lnone/art;",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "getUnlocalizedName",
+      "signature": "(I)Ljava/lang/String;",
+      "args": [
+        {
+          "index": 0,
+          "name": "meta"
+        }
+      ]
+    },
+    {
+      "obf": "e",
+      "name": "metaFromState",
+      "signature": "(Lnone/ars;)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "state"
+        }
+      ]
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "aof$a",
+      "name": "Double",
+      "field": [],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "e",
+          "name": "isDouble",
+          "signature": "()Z",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    },
+    {
+      "obf": "aof$b",
+      "name": "Half",
+      "field": [],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "e",
+          "name": "isDouble",
+          "signature": "()Z",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    },
+    {
+      "obf": "aof$c",
+      "name": "Type",
+      "field": [
+        {
+          "obf": "a",
+          "name": "DEFAULT",
+          "type": "Lnone/aof$c;"
+        }
+      ],
+      "constructors": [],
+      "method": [
+        {
+          "obf": "m",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}

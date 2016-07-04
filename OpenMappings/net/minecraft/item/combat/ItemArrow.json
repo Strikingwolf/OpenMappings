@@ -1,0 +1,15 @@
+{
+  "obf": "ach",
+  "name": "net/minecraft/item/combat/ItemArrow",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "createArrow",
+      "signature": "(Lnone/aid;Lnone/adz;Lnone/sf;)Lnone/zv;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

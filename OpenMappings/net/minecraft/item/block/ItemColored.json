@@ -1,0 +1,21 @@
+{
+  "obf": "afh",
+  "name": "net/minecraft/item/block/ItemColored",
+  "field": [
+    {
+      "obf": "b",
+      "name": "subtypeNames",
+      "type": "[Ljava/lang/String;"
+    }
+  ],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getMeta",
+      "signature": "(I)I",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

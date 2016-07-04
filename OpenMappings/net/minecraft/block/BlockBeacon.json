@@ -3,7 +3,20 @@
   "name": "net/minecraft/block/BlockBeacon",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "b",
+      "name": "isOpaqueCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "isFullCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    }
+  ],
   "innerClass": [
     {
       "obf": "akc$1",

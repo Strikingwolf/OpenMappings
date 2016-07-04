@@ -1,0 +1,38 @@
+{
+  "obf": "afi",
+  "name": "net/minecraft/item/combat/ItemTippedArrow",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getSubItems",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getStackDisplayName",
+      "signature": "(Lnone/adz;)Ljava/lang/String;",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "addInfo",
+      "signature": "(Lnone/adz;Lnone/zs;Ljava/util/List;Z)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "createArrow",
+      "signature": "(Lnone/aid;Lnone/adz;Lnone/sf;)Lnone/zv;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

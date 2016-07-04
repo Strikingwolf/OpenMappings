@@ -1,0 +1,15 @@
+{
+  "obf": "acq",
+  "name": "net/minecraft/item/combat/ItemBow",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onRightClick",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/zs;Lnone/qr;)Lnone/qu;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

@@ -1,0 +1,15 @@
+{
+  "obf": "amd",
+  "name": "net/minecraft/block/slab/BlockDoubleStoneSlab",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "e",
+      "name": "isDouble",
+      "signature": "()Z",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

@@ -3,6 +3,13 @@
   "name": "net/minecraft/item/ItemFireworkCharge",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "addInfo",
+      "signature": "(Lnone/adz;Lnone/zs;Ljava/util/List;Z)V",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

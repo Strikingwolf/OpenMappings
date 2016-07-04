@@ -21,6 +21,11 @@
       "obf": "b",
       "name": "TRANSPARENT",
       "type": "Lnone/axy;"
+    },
+    {
+      "obf": "u",
+      "name": "LIME",
+      "type": "Lnone/axy;"
     }
   ],
   "constructors": [

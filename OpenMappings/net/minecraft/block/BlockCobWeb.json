@@ -6,6 +6,7 @@
   "method": [
     {
       "obf": "a",
+      "name": "onEntityCollision",
       "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Lnone/rw;)V",
       "args": [
         {
@@ -30,6 +31,12 @@
     },
     {
       "obf": "a",
+      "name": "getItemDropped",
+      "signature": "(Lnone/ars;Ljava/util/Random;I)Lnone/adx;",
+      "args": []
+    },
+    {
+      "obf": "a",
       "signature": "(Lnone/ars;Lnone/aid;Lnone/cm;)Lnone/bby;",
       "args": [
         {
@@ -41,6 +48,24 @@
           "name": "pos"
         }
       ]
+    },
+    {
+      "obf": "b",
+      "name": "isOpaqueCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "isFullCube",
+      "signature": "(Lnone/ars;)Z",
+      "args": []
+    },
+    {
+      "obf": "o",
+      "name": "canSilkHarvest",
+      "signature": "()Z",
+      "args": []
     }
   ],
   "innerClass": []

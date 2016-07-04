@@ -1,0 +1,15 @@
+{
+  "obf": "afk",
+  "name": "net/minecraft/item/block/ItemWaterlily",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onRightClick",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/zs;Lnone/qr;)Lnone/qu;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

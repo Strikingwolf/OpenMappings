@@ -1,0 +1,170 @@
+{
+  "obf": "amm",
+  "name": "net/minecraft/block/slab/BlockSlab",
+  "field": [{
+    "obf": "a",
+    "name": "HALF",
+    "type": "Lnone/asg;"
+  }, {
+    "obf": "b",
+    "name": "BOTTOM_BOX",
+    "type": "Lnone/bby;"
+  }, {
+    "obf": "c",
+    "name": "TOP_BOX",
+    "type": "Lnone/bby;"
+  }],
+  "constructors": [{
+    "signature": "(Lnone/axx;)V",
+    "args": [{
+      "index": 0,
+      "name": "material"
+    }],
+    "statics": false
+  }],
+  "method": [{
+    "obf": "a",
+    "name": "amountDropped",
+    "signature": "(Ljava/util/Random;)I",
+    "args": [{
+      "index": 0,
+      "name": "rand"
+    }]
+  }, {
+    "obf": "a",
+    "name": "typeFromItem",
+    "signature": "(Lnone/adz;)Ljava/lang/Comparable;",
+    "args": [{
+      "index": 0,
+      "name": "stack"
+    }]
+  }, {
+    "obf": "a",
+    "name": "onBlockPlaced",
+    "signature": "(Lnone/aid;Lnone/cm;Lnone/ct;FFFILnone/sf;)Lnone/ars;",
+    "args": [{
+      "index": 0,
+      "name": "world"
+    }, {
+      "index": 1,
+      "name": "pos"
+    }, {
+      "index": 2,
+      "name": "side"
+    }, {
+      "index": 7,
+      "name": "placer"
+    }]
+  }, {
+    "obf": "a",
+    "name": "getBoundingBox",
+    "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
+    "args": [{
+      "index": 0,
+      "name": "state"
+    }, {
+      "index": 1,
+      "name": "accessor"
+    }, {
+      "index": 2,
+      "name": "pos"
+    }]
+  }, {
+    "obf": "a",
+    "name": "shouldRenderSide",
+    "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;Lnone/ct;)Z",
+    "args": [{
+      "index": 0,
+      "name": "state"
+    }, {
+      "index": 1,
+      "name": "accessor"
+    }, {
+      "index": 2,
+      "name": "pos"
+    }, {
+      "index": 3,
+      "name": "side"
+    }]
+  }, {
+    "obf": "b",
+    "name": "isOpaqueCube",
+    "signature": "(Lnone/ars;)Z",
+    "args": [{
+      "index": 0,
+      "name": "state"
+    }]
+  }, {
+    "obf": "c",
+    "name": "isFullCube",
+    "signature": "(Lnone/ars;)Z",
+    "args": [{
+      "index": 0,
+      "name": "state"
+    }]
+  }, {
+    "obf": "e",
+    "name": "isDouble",
+    "signature": "()Z",
+    "args": []
+  }, {
+    "obf": "e",
+    "name": "getUnlocalizedName",
+    "signature": "(I)Ljava/lang/String;",
+    "args": [{
+      "index": 0,
+      "name": "meta"
+    }]
+  }, {
+    "obf": "g",
+    "name": "getVariantProperty",
+    "signature": "()Lnone/asi;",
+    "args": []
+  }, {
+    "obf": "i",
+    "name": "isHalf",
+    "signature": "(Lnone/ars;)Z",
+    "args": [{
+      "index": 0,
+      "name": "state"
+    }]
+  }, {
+    "obf": "k",
+    "name": "isFullyOpaque",
+    "signature": "(Lnone/ars;)Z",
+    "args": [{
+      "index": 0,
+      "name": "state"
+    }]
+  }, {
+    "obf": "o",
+    "name": "canSilkHarvest",
+    "signature": "()Z",
+    "args": []
+  }],
+  "innerClass": [{
+    "obf": "amm$a",
+    "name": "Half",
+    "field": [{
+      "obf": "a",
+      "name": "TOP",
+      "type": "Lnone/amm$a;"
+    }, {
+      "obf": "b",
+      "name": "BOTTOM",
+      "type": "Lnone/amm$a;"
+    }, {
+      "obf": "c",
+      "name": "name",
+      "type": "Ljava/lang/String;"
+    }],
+    "constructors": [],
+    "method": [{
+      "obf": "m",
+      "name": "asString",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    }],
+    "innerClass": []
+  }]
+}

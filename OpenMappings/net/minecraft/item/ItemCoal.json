@@ -3,6 +3,13 @@
   "name": "net/minecraft/item/ItemCoal",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getSubItems",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

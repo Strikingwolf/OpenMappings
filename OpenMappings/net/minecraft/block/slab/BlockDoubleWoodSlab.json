@@ -1,0 +1,15 @@
+{
+  "obf": "ame",
+  "name": "net/minecraft/block/slab/BlockDoubleWoodSlab",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "e",
+      "name": "isDouble",
+      "signature": "()Z",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

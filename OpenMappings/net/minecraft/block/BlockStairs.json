@@ -33,7 +33,7 @@
   "method": [
     {
       "obf": "a",
-      "name": "getState",
+      "name": "stateFromMeta",
       "signature": "(I)Lnone/ars;",
       "args": [
         {
@@ -54,6 +54,7 @@
     },
     {
       "obf": "a",
+      "name": "canPlaceBlockAt",
       "signature": "(Lnone/aid;Lnone/cm;)Z",
       "args": [
         {
@@ -129,6 +130,7 @@
     },
     {
       "obf": "a",
+      "name": "onBlockPlaced",
       "signature": "(Lnone/aid;Lnone/cm;Lnone/ct;FFFILnone/sf;)Lnone/ars;",
       "args": [
         {
@@ -227,6 +229,7 @@
     },
     {
       "obf": "a",
+      "name": "addCollisionBox",
       "signature": "(Lnone/ars;Lnone/aid;Lnone/cm;Lnone/bby;Ljava/util/List;Lnone/rw;)V",
       "args": [
         {
@@ -315,7 +318,7 @@
     },
     {
       "obf": "b",
-      "name": "createStateContainer",
+      "name": "createState",
       "signature": "()Lnone/art;",
       "args": []
     },
@@ -339,7 +342,7 @@
     },
     {
       "obf": "b",
-      "name": "randomTick",
+      "name": "tick",
       "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Ljava/util/Random;)V",
       "args": [
         {
@@ -362,6 +365,7 @@
     },
     {
       "obf": "b",
+      "name": "isOpaqueCube",
       "signature": "(Lnone/ars;)Z",
       "args": [
         {
@@ -408,6 +412,7 @@
     },
     {
       "obf": "c",
+      "name": "isFullCube",
       "signature": "(Lnone/ars;)Z",
       "args": [
         {
@@ -513,7 +518,7 @@
     },
     {
       "obf": "e",
-      "name": "getMeta",
+      "name": "metaFromState",
       "signature": "(Lnone/ars;)I",
       "args": [
         {
@@ -534,6 +539,7 @@
     },
     {
       "obf": "k",
+      "name": "isFullyOpaque",
       "signature": "(Lnone/ars;)Z",
       "args": [
         {
@@ -544,7 +550,7 @@
     },
     {
       "obf": "r",
-      "name": "getColor",
+      "name": "getMapColor",
       "signature": "(Lnone/ars;)Lnone/axy;",
       "args": [
         {
@@ -609,7 +615,6 @@
       "method": [
         {
           "obf": "m",
-          "name": "asString",
           "signature": "()Ljava/lang/String;",
           "args": []
         }
@@ -655,7 +660,6 @@
       "method": [
         {
           "obf": "m",
-          "name": "asString",
           "signature": "()Ljava/lang/String;",
           "args": []
         }

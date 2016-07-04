@@ -1,0 +1,39 @@
+{
+  "obf": "aev",
+  "name": "net/minecraft/item/combat/ItemShield",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getSubItems",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getStackDisplayName",
+      "signature": "(Lnone/adz;)Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "onRightClick",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/zs;Lnone/qr;)Lnone/qu;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "addInfo",
+      "signature": "(Lnone/adz;Lnone/zs;Ljava/util/List;Z)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "onUse",
+      "signature": "(Lnone/adz;Lnone/zs;Lnone/aid;Lnone/cm;Lnone/qr;Lnone/ct;FFF)Lnone/qt;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

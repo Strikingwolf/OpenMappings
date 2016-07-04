@@ -6,6 +6,7 @@
   "method": [
     {
       "obf": "a",
+      "name": "canBonemeal",
       "signature": "(Lnone/aid;Ljava/util/Random;Lnone/cm;Lnone/ars;)Z",
       "args": [
         {
@@ -28,6 +29,7 @@
     },
     {
       "obf": "a",
+      "name": "canGrow",
       "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Z)Z",
       "args": [
         {
@@ -46,6 +48,7 @@
     },
     {
       "obf": "b",
+      "name": "grow",
       "signature": "(Lnone/aid;Ljava/util/Random;Lnone/cm;Lnone/ars;)V",
       "args": [
         {

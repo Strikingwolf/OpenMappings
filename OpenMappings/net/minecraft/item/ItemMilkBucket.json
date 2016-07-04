@@ -3,6 +3,19 @@
   "name": "net/minecraft/item/ItemMilkBucket",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onUseFinish",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/sf;)Lnone/adz;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "onRightClick",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/zs;Lnone/qr;)Lnone/qu;",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

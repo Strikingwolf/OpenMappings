@@ -1,0 +1,15 @@
+{
+  "obf": "ael",
+  "name": "net/minecraft/item/block/ItemPiston",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getMeta",
+      "signature": "(I)I",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

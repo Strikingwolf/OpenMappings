@@ -1,0 +1,183 @@
+{
+  "obf": "acl",
+  "name": "net/minecraft/item/block/ItemBlock",
+  "field": [
+    {
+      "obf": "a",
+      "name": "block",
+      "type": "Lnone/akf;"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(Lnone/akf;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "block"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getUnlocalizedName",
+      "signature": "()Ljava/lang/String;",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "getSubItems",
+      "signature": "(Lnone/adx;Lnone/acz;Ljava/util/List;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "item"
+        },
+        {
+          "index": 1,
+          "name": "tab"
+        },
+        {
+          "index": 2,
+          "name": "list"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "onUse",
+      "signature": "(Lnone/adz;Lnone/zs;Lnone/aid;Lnone/cm;Lnone/qr;Lnone/ct;FFF)Lnone/qt;",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        },
+        {
+          "index": 1,
+          "name": "player"
+        },
+        {
+          "index": 2,
+          "name": "world"
+        },
+        {
+          "index": 3,
+          "name": "pos"
+        },
+        {
+          "index": 4,
+          "name": "hand"
+        },
+        {
+          "index": 5,
+          "name": "side"
+        },
+        {
+          "index": 6,
+          "name": "hitX"
+        },
+        {
+          "index": 7,
+          "name": "hitY"
+        },
+        {
+          "index": 8,
+          "name": "hitZ"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ct;Lnone/zs;Lnone/adz;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        },
+        {
+          "index": 2,
+          "name": "side"
+        },
+        {
+          "index": 3,
+          "name": "player"
+        },
+        {
+          "index": 4,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "loadEntityFromTag",
+      "signature": "(Lnone/aid;Lnone/zs;Lnone/cm;Lnone/adz;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "player"
+        },
+        {
+          "index": 2,
+          "name": "pos"
+        },
+        {
+          "index": 3,
+          "name": "stack"
+        }
+      ]
+    },
+    {
+      "obf": "b",
+      "name": "getCreativeTab",
+      "signature": "()Lnone/acz;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "setName",
+      "signature": "(Ljava/lang/String;)Lnone/acl;",
+      "args": [
+        {
+          "index": 0,
+          "name": "name"
+        }
+      ]
+    },
+    {
+      "obf": "c",
+      "name": "setName",
+      "signature": "(Ljava/lang/String;)Lnone/adx;",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "getBlock",
+      "signature": "()Lnone/akf;",
+      "args": []
+    },
+    {
+      "obf": "f_",
+      "name": "getUnlocalizedName",
+      "signature": "(Lnone/adz;)Ljava/lang/String;",
+      "args": [
+        {
+          "index": 0,
+          "name": "stack"
+        }
+      ]
+    }
+  ],
+  "innerClass": []
+}

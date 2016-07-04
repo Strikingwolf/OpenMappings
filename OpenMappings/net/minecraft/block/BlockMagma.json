@@ -3,6 +3,19 @@
   "name": "net/minecraft/block/BlockMagma",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "b",
+      "name": "tick",
+      "signature": "(Lnone/aid;Lnone/cm;Lnone/ars;Ljava/util/Random;)V",
+      "args": []
+    },
+    {
+      "obf": "r",
+      "name": "getMapColor",
+      "signature": "(Lnone/ars;)Lnone/axy;",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

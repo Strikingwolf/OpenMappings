@@ -3,6 +3,13 @@
   "name": "net/minecraft/block/BlockPackedIce",
   "field": [],
   "constructors": [],
-  "method": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "amountDropped",
+      "signature": "(Ljava/util/Random;)I",
+      "args": []
+    }
+  ],
   "innerClass": []
 }

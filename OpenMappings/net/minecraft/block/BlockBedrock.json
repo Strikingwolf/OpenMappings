@@ -17,7 +17,7 @@
   "method": [
     {
       "obf": "a",
-      "name": "getAmountDropped",
+      "name": "amountDropped",
       "signature": "(Ljava/util/Random;)I",
       "args": [
         {

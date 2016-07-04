@@ -1,0 +1,74 @@
+{
+  "obf": "acf",
+  "name": "net/minecraft/item/combat/ItemArmor",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "onRightClick",
+      "signature": "(Lnone/adz;Lnone/aid;Lnone/zs;Lnone/qr;)Lnone/qu;",
+      "args": []
+    }
+  ],
+  "innerClass": [
+    {
+      "obf": "acf$a",
+      "name": "ArmorType",
+      "field": [
+        {
+          "obf": "a",
+          "name": "LEATHER",
+          "type": "Lnone/acf$a;"
+        },
+        {
+          "obf": "b",
+          "name": "CHAIN",
+          "type": "Lnone/acf$a;"
+        },
+        {
+          "obf": "c",
+          "name": "IRON",
+          "type": "Lnone/acf$a;"
+        },
+        {
+          "obf": "d",
+          "name": "GOLD",
+          "type": "Lnone/acf$a;"
+        },
+        {
+          "obf": "e",
+          "name": "DIAMOND",
+          "type": "Lnone/acf$a;"
+        },
+        {
+          "obf": "f",
+          "name": "name",
+          "type": "Ljava/lang/String;"
+        }
+      ],
+      "constructors": [
+        {
+          "signature": "(Ljava/lang/String;ILjava/lang/String;I[IILnone/ni;F)V",
+          "args": [],
+          "statics": false
+        }
+      ],
+      "method": [
+        {
+          "obf": "c",
+          "name": "getMaterial",
+          "signature": "()Lnone/adx;",
+          "args": []
+        },
+        {
+          "obf": "d",
+          "name": "getName",
+          "signature": "()Ljava/lang/String;",
+          "args": []
+        }
+      ],
+      "innerClass": []
+    }
+  ]
+}

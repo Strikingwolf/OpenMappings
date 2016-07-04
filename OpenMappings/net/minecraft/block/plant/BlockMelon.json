@@ -1,0 +1,37 @@
+{
+  "obf": "ane",
+  "name": "net/minecraft/block/plant/BlockMelon",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "amoundDroppedWithBonus",
+      "signature": "(ILjava/util/Random;)I",
+      "args": [
+        {
+          "index": 1,
+          "name": "rand"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "amountDropped",
+      "signature": "(Ljava/util/Random;)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "rand"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "getItemDropped",
+      "signature": "(Lnone/ars;Ljava/util/Random;I)Lnone/adx;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

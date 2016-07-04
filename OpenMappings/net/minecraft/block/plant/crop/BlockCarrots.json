@@ -1,0 +1,15 @@
+{
+  "obf": "akp",
+  "name": "net/minecraft/block/plant/crop/BlockCarrots",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getBoundingBox",
+      "signature": "(Lnone/ars;Lnone/aih;Lnone/cm;)Lnone/bby;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

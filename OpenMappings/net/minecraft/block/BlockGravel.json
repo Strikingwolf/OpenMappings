@@ -25,7 +25,7 @@
     },
     {
       "obf": "r",
-      "name": "getColor",
+      "name": "getMapColor",
       "signature": "(Lnone/ars;)Lnone/axy;",
       "args": [
         {
