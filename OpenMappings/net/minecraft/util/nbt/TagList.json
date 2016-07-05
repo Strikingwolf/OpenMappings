@@ -11,6 +11,11 @@
       "obf": "c",
       "name": "list",
       "type": "Ljava/util/List;"
+    },
+    {
+      "obf": "d",
+      "name": "tagID",
+      "type": "B"
     }
   ],
   "constructors": [],
@@ -23,6 +28,33 @@
     },
     {
       "obf": "a",
+      "name": "removeTag",
+      "signature": "(I)Lnone/ef;",
+      "args": [
+        {
+          "index": 0,
+          "name": "index"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "set",
+      "signature": "(ILnone/ef;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "index"
+        },
+        {
+          "index": 1,
+          "name": "tag"
+        }
+      ]
+    },
+    {
+      "obf": "a",
+      "name": "read",
       "signature": "(Ljava/io/DataInput;ILnone/dz;)V",
       "args": [
         {
@@ -33,6 +65,13 @@
     },
     {
       "obf": "a",
+      "name": "write",
+      "signature": "(Ljava/io/DataOutput;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "addTag",
       "signature": "(Lnone/ef;)V",
       "args": [
         {
@@ -42,10 +81,115 @@
       ]
     },
     {
+      "obf": "b",
+      "name": "getTagCompound",
+      "signature": "(I)Lnone/dr;",
+      "args": [
+        {
+          "index": 0,
+          "name": "index"
+        }
+      ]
+    },
+    {
       "obf": "b_",
       "name": "isEmpty",
       "signature": "()Z",
       "args": []
+    },
+    {
+      "obf": "c",
+      "name": "size",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getInt",
+      "signature": "(I)I",
+      "args": [
+        {
+          "index": 0,
+          "name": "index"
+        }
+      ]
+    },
+    {
+      "obf": "d",
+      "name": "copy",
+      "signature": "()Lnone/dx;",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "getIntArray",
+      "signature": "(I)[I",
+      "args": [
+        {
+          "index": 0,
+          "name": "index"
+        }
+      ]
+    },
+    {
+      "obf": "e",
+      "name": "getDouble",
+      "signature": "(I)D",
+      "args": [
+        {
+          "index": 0,
+          "name": "index"
+        }
+      ]
+    },
+    {
+      "obf": "equals",
+      "signature": "(Ljava/lang/Object;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "obj"
+        }
+      ]
+    },
+    {
+      "obf": "f",
+      "name": "getFloat",
+      "signature": "(I)F",
+      "args": [
+        {
+          "index": 0,
+          "name": "index"
+        }
+      ]
+    },
+    {
+      "obf": "g",
+      "name": "getTagID",
+      "signature": "()I",
+      "args": []
+    },
+    {
+      "obf": "g",
+      "name": "getString",
+      "signature": "(I)Ljava/lang/String;",
+      "args": [
+        {
+          "index": 0,
+          "name": "index"
+        }
+      ]
+    },
+    {
+      "obf": "h",
+      "name": "get",
+      "signature": "(I)Lnone/ef;",
+      "args": [
+        {
+          "index": 0,
+          "name": "index"
+        }
+      ]
     }
   ],
   "innerClass": []

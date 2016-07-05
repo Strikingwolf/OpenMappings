@@ -29,6 +29,7 @@
     },
     {
       "obf": "a",
+      "name": "read",
       "signature": "(Ljava/io/DataInput;ILnone/dz;)V",
       "args": [
         {
@@ -36,6 +37,12 @@
           "name": "input"
         }
       ]
+    },
+    {
+      "obf": "a",
+      "name": "write",
+      "signature": "(Ljava/io/DataOutput;)V",
+      "args": []
     },
     {
       "obf": "a",

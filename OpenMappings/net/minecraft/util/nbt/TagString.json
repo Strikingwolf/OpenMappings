@@ -11,6 +11,18 @@
       "args": []
     },
     {
+      "obf": "a",
+      "name": "read",
+      "signature": "(Ljava/io/DataInput;ILnone/dz;)V",
+      "args": []
+    },
+    {
+      "obf": "a",
+      "name": "write",
+      "signature": "(Ljava/io/DataOutput;)V",
+      "args": []
+    },
+    {
       "obf": "b_",
       "name": "isEmpty",
       "signature": "()Z",
