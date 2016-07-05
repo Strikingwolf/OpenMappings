@@ -1,0 +1,45 @@
+{
+  "obf": "cn",
+  "name": "net/minecraft/dispenser/BlockSource",
+  "field": [],
+  "constructors": [],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getX",
+      "signature": "()D",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getY",
+      "signature": "()D",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getZ",
+      "signature": "()D",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "getPos",
+      "signature": "()Lnone/cm;",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "getState",
+      "signature": "()Lnone/ars;",
+      "args": []
+    },
+    {
+      "obf": "g",
+      "name": "getBlockEntity",
+      "signature": "()Lnone/aqk;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}

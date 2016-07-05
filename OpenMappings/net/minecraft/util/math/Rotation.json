@@ -1,0 +1,88 @@
+{
+  "obf": "df",
+  "name": "net/minecraft/util/math/Rotation",
+  "field": [
+    {
+      "obf": "a",
+      "name": "x",
+      "type": "F"
+    },
+    {
+      "obf": "b",
+      "name": "y",
+      "type": "F"
+    },
+    {
+      "obf": "c",
+      "name": "z",
+      "type": "F"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(FFF)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "x"
+        },
+        {
+          "index": 1,
+          "name": "y"
+        },
+        {
+          "index": 2,
+          "name": "z"
+        }
+      ],
+      "statics": false
+    },
+    {
+      "signature": "(Lnone/dx;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "tagList"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [
+    {
+      "obf": "a",
+      "name": "asTagList",
+      "signature": "()Lnone/dx;",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getX",
+      "signature": "()F",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getY",
+      "signature": "()F",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "getZ",
+      "signature": "()F",
+      "args": []
+    },
+    {
+      "obf": "equals",
+      "signature": "(Ljava/lang/Object;)Z",
+      "args": [
+        {
+          "index": 0,
+          "name": "obj"
+        }
+      ]
+    }
+  ],
+  "innerClass": []
+}

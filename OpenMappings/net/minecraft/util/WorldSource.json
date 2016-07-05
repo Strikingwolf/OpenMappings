@@ -1,0 +1,77 @@
+{
+  "obf": "co",
+  "name": "net/minecraft/util/WorldSource",
+  "field": [
+    {
+      "obf": "a",
+      "name": "world",
+      "type": "Lnone/aid;"
+    },
+    {
+      "obf": "b",
+      "name": "pos",
+      "type": "Lnone/cm;"
+    }
+  ],
+  "constructors": [
+    {
+      "signature": "(Lnone/aid;Lnone/cm;)V",
+      "args": [
+        {
+          "index": 0,
+          "name": "world"
+        },
+        {
+          "index": 1,
+          "name": "pos"
+        }
+      ],
+      "statics": false
+    }
+  ],
+  "method": [
+    {
+      "obf": "a",
+      "name": "getX",
+      "signature": "()D",
+      "args": []
+    },
+    {
+      "obf": "b",
+      "name": "getY",
+      "signature": "()D",
+      "args": []
+    },
+    {
+      "obf": "c",
+      "name": "getZ",
+      "signature": "()D",
+      "args": []
+    },
+    {
+      "obf": "d",
+      "name": "getPos",
+      "signature": "()Lnone/cm;",
+      "args": []
+    },
+    {
+      "obf": "e",
+      "name": "getState",
+      "signature": "()Lnone/ars;",
+      "args": []
+    },
+    {
+      "obf": "g",
+      "name": "getBlockEntity",
+      "signature": "()Lnone/aqk;",
+      "args": []
+    },
+    {
+      "obf": "h",
+      "name": "getWorld",
+      "signature": "()Lnone/aid;",
+      "args": []
+    }
+  ],
+  "innerClass": []
+}
